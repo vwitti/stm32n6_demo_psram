@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_address_change_notify.c"
+node: { title: "_nxe_ip_address_change_notify" label: "_nxe_ip_address_change_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_address_change_notify.c:80:7" }
+node: { title: "_nx_ip_address_change_notify" label: "_nx_ip_address_change_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ipv4.h:172:6" shape : ellipse }
+edge: { sourcename: "_nxe_ip_address_change_notify" targetname: "_nx_ip_address_change_notify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_address_change_notify.c:97:15" }
+}

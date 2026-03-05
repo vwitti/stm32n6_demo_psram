@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_byte_allocate.c"
+node: { title: "_txe_byte_allocate" label: "_txe_byte_allocate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_byte_allocate.c:83:7" }
+node: { title: "_tx_byte_allocate" label: "_tx_byte_allocate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1519:13" shape : ellipse }
+edge: { sourcename: "_txe_byte_allocate" targetname: "_tx_byte_allocate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_byte_allocate.c:195:19" }
+}

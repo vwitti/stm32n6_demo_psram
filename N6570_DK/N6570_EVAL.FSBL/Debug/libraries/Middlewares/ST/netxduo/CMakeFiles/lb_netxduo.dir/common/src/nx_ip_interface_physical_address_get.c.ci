@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_interface_physical_address_get.c"
+node: { title: "_nx_ip_interface_physical_address_get" label: "_nx_ip_interface_physical_address_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_interface_physical_address_get.c:75:7" }
+node: { title: "_tx_mutex_get" label: "_tx_mutex_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1616:13" shape : ellipse }
+edge: { sourcename: "_nx_ip_interface_physical_address_get" targetname: "_tx_mutex_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_interface_physical_address_get.c:80:5" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_nx_ip_interface_physical_address_get" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_interface_physical_address_get.c:87:5" }
+}

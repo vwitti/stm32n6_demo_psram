@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_gateway_address_get.c"
+node: { title: "_nxe_ip_gateway_address_get" label: "_nxe_ip_gateway_address_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_gateway_address_get.c:78:7" }
+node: { title: "_nx_ip_gateway_address_get" label: "_nx_ip_gateway_address_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ipv4.h:176:6" shape : ellipse }
+edge: { sourcename: "_nxe_ip_gateway_address_get" targetname: "_nx_ip_gateway_address_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_gateway_address_get.c:94:15" }
+}

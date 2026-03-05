@@ -1,0 +1,11 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c"
+node: { title: "syscall_HAL_UART_write" label: "syscall_HAL_UART_write\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:49:6" }
+node: { title: "DebugUsartHandle_get" label: "DebugUsartHandle_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/stm32_dev_handles.h:28:22" shape : ellipse }
+edge: { sourcename: "syscall_HAL_UART_write" targetname: "DebugUsartHandle_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:51:32" }
+node: { title: "HAL_UART_Transmit" label: "HAL_UART_Transmit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h:1645:19" shape : ellipse }
+edge: { sourcename: "syscall_HAL_UART_write" targetname: "HAL_UART_Transmit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:53:2" }
+node: { title: "syscall_HAL_UART_read" label: "syscall_HAL_UART_read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:56:6" }
+edge: { sourcename: "syscall_HAL_UART_read" targetname: "DebugUsartHandle_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:58:32" }
+node: { title: "HAL_UART_Receive" label: "HAL_UART_Receive\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h:1646:19" shape : ellipse }
+edge: { sourcename: "syscall_HAL_UART_read" targetname: "HAL_UART_Receive" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:60:2" }
+}

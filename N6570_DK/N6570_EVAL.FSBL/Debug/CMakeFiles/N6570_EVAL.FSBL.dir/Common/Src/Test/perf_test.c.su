@@ -1,0 +1,7 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:51:17:atan_inv_uint	120	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:79:10:pi_uint32_scaled	48	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:92:6:perf_info_cyccnt_enable	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:99:6:perf_info_cyccnt_disable	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:106:10:perf_info_cyccnt_run	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:118:8:pi_leibniz_double	40	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:161:6:fsbl_perf_test	56	static

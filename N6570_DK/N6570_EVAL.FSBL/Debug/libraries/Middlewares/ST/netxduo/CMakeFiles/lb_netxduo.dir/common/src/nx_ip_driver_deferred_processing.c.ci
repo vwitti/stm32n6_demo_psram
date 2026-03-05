@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_driver_deferred_processing.c"
+node: { title: "_nx_ip_driver_deferred_processing" label: "_nx_ip_driver_deferred_processing\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_driver_deferred_processing.c:78:7" }
+node: { title: "_tx_event_flags_set" label: "_tx_event_flags_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1575:13" shape : ellipse }
+edge: { sourcename: "_nx_ip_driver_deferred_processing" targetname: "_tx_event_flags_set" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_driver_deferred_processing.c:83:5" }
+}

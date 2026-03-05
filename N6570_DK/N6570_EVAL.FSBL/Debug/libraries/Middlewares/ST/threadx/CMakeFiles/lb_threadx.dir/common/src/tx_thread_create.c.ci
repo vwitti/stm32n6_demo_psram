@@ -1,0 +1,12 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c"
+node: { title: "_tx_thread_create" label: "_tx_thread_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c:97:7" }
+node: { title: "memset" label: "memset\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/string.h:33:9" shape : ellipse }
+edge: { sourcename: "_tx_thread_create" targetname: "memset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c:131:5" }
+edge: { sourcename: "_tx_thread_create" targetname: "memset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c:169:5" }
+node: { title: "_tx_thread_stack_build" label: "_tx_thread_stack_build\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:282:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_create" targetname: "_tx_thread_stack_build" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c:225:5" }
+node: { title: "_tx_thread_system_resume" label: "_tx_thread_system_resume\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:286:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_create" targetname: "_tx_thread_system_resume" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c:344:9" }
+node: { title: "_tx_thread_system_preempt_check" label: "_tx_thread_system_preempt_check\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:285:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_create" targetname: "_tx_thread_system_preempt_check" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_create.c:384:9" }
+}

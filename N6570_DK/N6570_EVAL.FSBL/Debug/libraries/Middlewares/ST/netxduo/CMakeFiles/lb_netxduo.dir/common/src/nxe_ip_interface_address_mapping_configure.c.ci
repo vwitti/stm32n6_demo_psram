@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_interface_address_mapping_configure.c"
+node: { title: "_nxe_ip_interface_address_mapping_configure" label: "_nxe_ip_interface_address_mapping_configure\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_interface_address_mapping_configure.c:78:7" }
+node: { title: "_nx_ip_interface_address_mapping_configure" label: "_nx_ip_interface_address_mapping_configure\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:113:8" shape : ellipse }
+edge: { sourcename: "_nxe_ip_interface_address_mapping_configure" targetname: "_nx_ip_interface_address_mapping_configure" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_interface_address_mapping_configure.c:98:14" }
+}

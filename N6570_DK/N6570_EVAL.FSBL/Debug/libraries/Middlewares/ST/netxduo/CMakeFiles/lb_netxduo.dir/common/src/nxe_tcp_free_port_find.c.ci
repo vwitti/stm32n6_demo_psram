@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_free_port_find.c"
+node: { title: "_nxe_tcp_free_port_find" label: "_nxe_tcp_free_port_find\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_free_port_find.c:81:7" }
+node: { title: "_nx_tcp_free_port_find" label: "_nx_tcp_free_port_find\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:249:6" shape : ellipse }
+edge: { sourcename: "_nxe_tcp_free_port_find" targetname: "_nx_tcp_free_port_find" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_free_port_find.c:109:15" }
+}

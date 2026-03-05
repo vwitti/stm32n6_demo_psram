@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_xspi_direct.c"
+node: { title: "fx_stm32_xspi_direct" label: "fx_stm32_xspi_direct\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_xspi_direct.c:34:7" }
+node: { title: "EXTMEM_Read" label: "EXTMEM_Read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:143:22" shape : ellipse }
+edge: { sourcename: "fx_stm32_xspi_direct" targetname: "EXTMEM_Read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_xspi_direct.c:100:48" }
+node: { title: "puts" label: "__builtin_puts\n<built-in>" shape : ellipse }
+edge: { sourcename: "fx_stm32_xspi_direct" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_xspi_direct.c:118:10" }
+edge: { sourcename: "fx_stm32_xspi_direct" targetname: "EXTMEM_Read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_xspi_direct.c:186:44" }
+edge: { sourcename: "fx_stm32_xspi_direct" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_xspi_direct.c:203:10" }
+}

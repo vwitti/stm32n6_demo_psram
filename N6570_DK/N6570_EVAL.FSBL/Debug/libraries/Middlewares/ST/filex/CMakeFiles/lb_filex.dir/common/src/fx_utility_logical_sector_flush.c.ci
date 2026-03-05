@@ -1,0 +1,6 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_logical_sector_flush.c"
+node: { title: "_fx_utility_logical_sector_flush" label: "_fx_utility_logical_sector_flush\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_logical_sector_flush.c:84:7" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_fx_utility_logical_sector_flush" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_logical_sector_flush.c:194:36" }
+edge: { sourcename: "_fx_utility_logical_sector_flush" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_logical_sector_flush.c:396:44" }
+}

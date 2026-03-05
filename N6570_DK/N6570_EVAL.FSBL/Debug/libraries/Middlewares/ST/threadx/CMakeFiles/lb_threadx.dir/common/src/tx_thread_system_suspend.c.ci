@@ -1,0 +1,11 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c"
+node: { title: "_tx_thread_system_suspend" label: "_tx_thread_system_suspend\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c:83:7" }
+node: { title: "_tx_thread_stack_error_handler" label: "_tx_thread_stack_error_handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:284:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_system_suspend" targetname: "_tx_thread_stack_error_handler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c:117:5" }
+node: { title: "_tx_thread_stack_analyze" label: "_tx_thread_stack_analyze\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:281:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_system_suspend" targetname: "_tx_thread_stack_analyze" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c:117:5" }
+node: { title: "_tx_timer_system_activate" label: "_tx_timer_system_activate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_timer.h:64:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_system_suspend" targetname: "_tx_timer_system_activate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c:141:17" }
+edge: { sourcename: "_tx_thread_system_suspend" targetname: "_tx_thread_stack_error_handler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c:617:9" }
+edge: { sourcename: "_tx_thread_system_suspend" targetname: "_tx_thread_stack_analyze" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_system_suspend.c:617:9" }
+}

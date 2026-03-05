@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_packet_info_extract.c"
+node: { title: "_nxe_udp_packet_info_extract" label: "_nxe_udp_packet_info_extract\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_packet_info_extract.c:86:7" }
+node: { title: "_nx_udp_packet_info_extract" label: "_nx_udp_packet_info_extract\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_udp.h:129:6" shape : ellipse }
+edge: { sourcename: "_nxe_udp_packet_info_extract" targetname: "_nx_udp_packet_info_extract" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_packet_info_extract.c:101:14" }
+}

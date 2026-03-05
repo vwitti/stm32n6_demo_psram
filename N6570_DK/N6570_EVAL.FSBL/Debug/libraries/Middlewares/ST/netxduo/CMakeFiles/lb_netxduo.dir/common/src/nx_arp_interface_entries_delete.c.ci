@@ -1,0 +1,11 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_interface_entries_delete.c"
+node: { title: "_nx_arp_interface_entries_delete" label: "_nx_arp_interface_entries_delete\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_interface_entries_delete.c:76:6" }
+node: { title: "_tx_mutex_get" label: "_tx_mutex_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1616:13" shape : ellipse }
+edge: { sourcename: "_nx_arp_interface_entries_delete" targetname: "_tx_mutex_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_interface_entries_delete.c:87:5" }
+node: { title: "_nx_arp_dynamic_entry_delete" label: "_nx_arp_dynamic_entry_delete\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_arp.h:96:6" shape : ellipse }
+edge: { sourcename: "_nx_arp_interface_entries_delete" targetname: "_nx_arp_dynamic_entry_delete" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_interface_entries_delete.c:103:13" }
+node: { title: "_nx_arp_static_entry_delete_internal" label: "_nx_arp_static_entry_delete_internal\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_arp.h:97:6" shape : ellipse }
+edge: { sourcename: "_nx_arp_interface_entries_delete" targetname: "_nx_arp_static_entry_delete_internal" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_interface_entries_delete.c:149:17" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_nx_arp_interface_entries_delete" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_interface_entries_delete.c:162:5" }
+}

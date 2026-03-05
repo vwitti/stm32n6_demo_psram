@@ -1,0 +1,12 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c"
+node: { title: "_sbrk" label: "_sbrk\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:59:7" }
+node: { title: "__errno" label: "__errno\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/sys/errno.h:19:13" shape : ellipse }
+edge: { sourcename: "_sbrk" targetname: "__errno" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:79:5" }
+node: { title: "_get_size_heap" label: "_get_size_heap\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:92:10" }
+node: { title: "_get_peak_heap" label: "_get_peak_heap\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:107:10" }
+node: { title: "_dump_heap_info" label: "_dump_heap_info\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:116:6" }
+edge: { sourcename: "_dump_heap_info" targetname: "_get_size_heap" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:121:23" }
+edge: { sourcename: "_dump_heap_info" targetname: "_get_peak_heap" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:122:23" }
+node: { title: "printf" label: "printf\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/stdio.h:206:5" shape : ellipse }
+edge: { sourcename: "_dump_heap_info" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/sysmem.c:123:2" }
+}

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ipv4_multicast_interface_join.c"
+node: { title: "_nxe_ipv4_multicast_interface_join" label: "_nxe_ipv4_multicast_interface_join\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ipv4_multicast_interface_join.c:79:7" }
+node: { title: "_nx_ipv4_multicast_interface_join" label: "_nx_ipv4_multicast_interface_join\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ipv4.h:186:6" shape : ellipse }
+edge: { sourcename: "_nxe_ipv4_multicast_interface_join" targetname: "_nx_ipv4_multicast_interface_join" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ipv4_multicast_interface_join.c:109:15" }
+}

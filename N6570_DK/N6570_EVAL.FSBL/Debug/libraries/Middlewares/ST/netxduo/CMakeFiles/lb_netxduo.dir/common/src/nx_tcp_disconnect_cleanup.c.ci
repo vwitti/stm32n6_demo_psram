@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_disconnect_cleanup.c"
+node: { title: "_nx_tcp_disconnect_cleanup" label: "_nx_tcp_disconnect_cleanup\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_disconnect_cleanup.c:82:7" }
+node: { title: "_tx_event_flags_set" label: "_tx_event_flags_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1575:13" shape : ellipse }
+edge: { sourcename: "_nx_tcp_disconnect_cleanup" targetname: "_tx_event_flags_set" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_disconnect_cleanup.c:138:9" }
+node: { title: "_tx_thread_system_resume" label: "_tx_thread_system_resume\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:286:13" shape : ellipse }
+edge: { sourcename: "_nx_tcp_disconnect_cleanup" targetname: "_tx_thread_system_resume" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_disconnect_cleanup.c:174:13" }
+}

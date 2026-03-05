@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_reset.c"
+node: { title: "_txe_thread_reset" label: "_txe_thread_reset\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_reset.c:74:7" }
+node: { title: "_tx_thread_reset" label: "_tx_thread_reset\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1771:13" shape : ellipse }
+edge: { sourcename: "_txe_thread_reset" targetname: "_tx_thread_reset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_reset.c:132:19" }
+}

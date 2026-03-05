@@ -1,0 +1,45 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB4_GRP1_EnableClock" label: "LL_AHB4_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB5_GRP1_EnableClock" label: "LL_AHB5_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1755:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB5_GRP1_DisableClock" label: "LL_AHB5_GRP1_DisableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1891:22" }
+node: { title: "MX_SDMMC2_SD_Init" label: "MX_SDMMC2_SD_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:45:6" }
+node: { title: "HAL_SD_Init" label: "HAL_SD_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_sd.h:619:19" shape : ellipse }
+edge: { sourcename: "MX_SDMMC2_SD_Init" targetname: "HAL_SD_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:54:7" }
+node: { title: "Error_Handler" label: "Error_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/error_handler.h:31:6" shape : ellipse }
+edge: { sourcename: "MX_SDMMC2_SD_Init" targetname: "Error_Handler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:56:4" }
+node: { title: "MX_SDMMC2_SD_Pins" label: "MX_SDMMC2_SD_Pins\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:61:6" }
+edge: { sourcename: "MX_SDMMC2_SD_Pins" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:65:2" }
+node: { title: "HAL_GPIO_Init" label: "HAL_GPIO_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:467:19" shape : ellipse }
+edge: { sourcename: "MX_SDMMC2_SD_Pins" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:71:2" }
+node: { title: "HAL_EXTI_ConfigLineAttributes" label: "HAL_EXTI_ConfigLineAttributes\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_exti.h:386:19" shape : ellipse }
+edge: { sourcename: "MX_SDMMC2_SD_Pins" targetname: "HAL_EXTI_ConfigLineAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:74:2" }
+node: { title: "HAL_NVIC_SetPriority" label: "HAL_NVIC_SetPriority\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:286:6" shape : ellipse }
+edge: { sourcename: "MX_SDMMC2_SD_Pins" targetname: "HAL_NVIC_SetPriority" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:77:2" }
+node: { title: "HAL_NVIC_EnableIRQ" label: "HAL_NVIC_EnableIRQ\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:287:6" shape : ellipse }
+edge: { sourcename: "MX_SDMMC2_SD_Pins" targetname: "HAL_NVIC_EnableIRQ" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:78:2" }
+node: { title: "HAL_SD_MspInit" label: "HAL_SD_MspInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:87:6" }
+node: { title: "memset" label: "__builtin_memset\n<built-in>" shape : ellipse }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "memset" }
+node: { title: "HAL_RCCEx_PeriphCLKConfig" label: "HAL_RCCEx_PeriphCLKConfig\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_rcc_ex.h:2604:19" shape : ellipse }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "HAL_RCCEx_PeriphCLKConfig" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:101:10" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "Error_Handler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:103:8" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB5_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:107:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:109:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:110:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:124:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:131:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:138:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "HAL_NVIC_SetPriority" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:143:6" }
+edge: { sourcename: "HAL_SD_MspInit" targetname: "HAL_NVIC_EnableIRQ" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:144:6" }
+node: { title: "HAL_SD_MspDeInit" label: "HAL_SD_MspDeInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:155:6" }
+edge: { sourcename: "HAL_SD_MspDeInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:LL_AHB5_GRP1_DisableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:163:5" }
+node: { title: "HAL_GPIO_DeInit" label: "HAL_GPIO_DeInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:468:19" shape : ellipse }
+edge: { sourcename: "HAL_SD_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:173:5" }
+edge: { sourcename: "HAL_SD_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:176:5" }
+node: { title: "EXTI12_IRQHandler" label: "EXTI12_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:188:6" }
+node: { title: "HAL_GPIO_EXTI_IRQHandler" label: "HAL_GPIO_EXTI_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:489:19" shape : ellipse }
+edge: { sourcename: "EXTI12_IRQHandler" targetname: "HAL_GPIO_EXTI_IRQHandler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:193:3" }
+node: { title: "SDMMC2_IRQHandler" label: "SDMMC2_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:202:6" }
+node: { title: "HAL_SD_IRQHandler" label: "HAL_SD_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_sd.h:648:19" shape : ellipse }
+edge: { sourcename: "SDMMC2_IRQHandler" targetname: "HAL_SD_IRQHandler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:207:3" }
+}

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_front_send.c"
+node: { title: "_txe_queue_front_send" label: "_txe_queue_front_send\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_front_send.c:78:7" }
+node: { title: "_tx_queue_front_send" label: "_tx_queue_front_send\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1667:13" shape : ellipse }
+edge: { sourcename: "_txe_queue_front_send" targetname: "_tx_queue_front_send" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_front_send.c:154:19" }
+}

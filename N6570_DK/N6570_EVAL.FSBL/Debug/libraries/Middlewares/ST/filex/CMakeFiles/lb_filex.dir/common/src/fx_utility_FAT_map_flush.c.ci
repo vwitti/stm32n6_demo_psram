@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_FAT_map_flush.c"
+node: { title: "_fx_utility_FAT_map_flush" label: "_fx_utility_FAT_map_flush\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_FAT_map_flush.c:74:7" }
+node: { title: "_fx_utility_logical_sector_read" label: "_fx_utility_logical_sector_read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:71:9" shape : ellipse }
+edge: { sourcename: "_fx_utility_FAT_map_flush" targetname: "_fx_utility_logical_sector_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_FAT_map_flush.c:125:23" }
+node: { title: "_fx_utility_logical_sector_write" label: "_fx_utility_logical_sector_write\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:73:9" shape : ellipse }
+edge: { sourcename: "_fx_utility_FAT_map_flush" targetname: "_fx_utility_logical_sector_write" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_utility_FAT_map_flush.c:143:27" }
+}

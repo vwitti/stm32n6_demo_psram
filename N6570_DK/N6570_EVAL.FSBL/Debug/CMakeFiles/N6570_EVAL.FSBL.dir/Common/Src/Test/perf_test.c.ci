@@ -1,0 +1,38 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:atan_inv_uint" label: "atan_inv_uint\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:51:17" }
+node: { title: "__aeabi_uldivmod" label: "__aeabi_uldivmod\n<built-in>" shape : ellipse }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:atan_inv_uint" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:atan_inv_uint" targetname: "__aeabi_uldivmod" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:atan_inv_uint" targetname: "__aeabi_uldivmod" }
+node: { title: "pi_uint32_scaled" label: "pi_uint32_scaled\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:79:10" }
+edge: { sourcename: "pi_uint32_scaled" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:atan_inv_uint" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:81:18" }
+edge: { sourcename: "pi_uint32_scaled" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:atan_inv_uint" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:82:18" }
+node: { title: "perf_info_cyccnt_enable" label: "perf_info_cyccnt_enable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:92:6" }
+node: { title: "perf_info_cyccnt_disable" label: "perf_info_cyccnt_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:99:6" }
+node: { title: "perf_info_cyccnt_run" label: "perf_info_cyccnt_run\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:106:10" }
+node: { title: "pi_leibniz_double" label: "pi_leibniz_double\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:118:8" }
+node: { title: "fsbl_perf_test" label: "fsbl_perf_test\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:161:6" }
+edge: { sourcename: "fsbl_perf_test" targetname: "perf_info_cyccnt_enable" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:169:2" }
+edge: { sourcename: "fsbl_perf_test" targetname: "perf_info_cyccnt_run" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:171:19" }
+node: { title: "_tx_thread_sleep" label: "_tx_thread_sleep\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1773:13" shape : ellipse }
+edge: { sourcename: "fsbl_perf_test" targetname: "_tx_thread_sleep" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:172:2" }
+edge: { sourcename: "fsbl_perf_test" targetname: "perf_info_cyccnt_run" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:173:17" }
+node: { title: "printf" label: "printf\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/stdio.h:206:5" shape : ellipse }
+edge: { sourcename: "fsbl_perf_test" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:176:2" }
+node: { title: "HAL_GetTick" label: "HAL_GetTick\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:812:10" shape : ellipse }
+edge: { sourcename: "fsbl_perf_test" targetname: "HAL_GetTick" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:182:22" }
+edge: { sourcename: "fsbl_perf_test" targetname: "pi_uint32_scaled" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:184:20" }
+edge: { sourcename: "fsbl_perf_test" targetname: "HAL_GetTick" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:186:20" }
+edge: { sourcename: "fsbl_perf_test" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:194:5" }
+edge: { sourcename: "fsbl_perf_test" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:196:5" }
+edge: { sourcename: "fsbl_perf_test" targetname: "HAL_GetTick" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:198:22" }
+edge: { sourcename: "fsbl_perf_test" targetname: "pi_leibniz_double" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:200:18" }
+edge: { sourcename: "fsbl_perf_test" targetname: "HAL_GetTick" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:202:20" }
+edge: { sourcename: "fsbl_perf_test" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:210:5" }
+edge: { sourcename: "fsbl_perf_test" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:217:5" }
+node: { title: "StartScreenLcd_WriteLine" label: "StartScreenLcd_WriteLine\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:35:6" shape : ellipse }
+edge: { sourcename: "fsbl_perf_test" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:221:6" }
+edge: { sourcename: "fsbl_perf_test" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:225:6" }
+node: { title: "my_assert_fail" label: "my_assert_fail\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.h:18:6" shape : ellipse }
+edge: { sourcename: "fsbl_perf_test" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/perf_test.c:227:5" }
+}

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_delete.c"
+node: { title: "_nxe_ip_delete" label: "_nxe_ip_delete\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_delete.c:78:7" }
+node: { title: "_nx_ip_delete" label: "_nx_ip_delete\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:127:6" shape : ellipse }
+edge: { sourcename: "_nxe_ip_delete" targetname: "_nx_ip_delete" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_delete.c:94:15" }
+}

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_data_extract_offset.c"
+node: { title: "_nxe_packet_data_extract_offset" label: "_nxe_packet_data_extract_offset\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_data_extract_offset.c:77:7" }
+node: { title: "_nx_packet_data_extract_offset" label: "_nx_packet_data_extract_offset\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:102:6" shape : ellipse }
+edge: { sourcename: "_nxe_packet_data_extract_offset" targetname: "_nx_packet_data_extract_offset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_data_extract_offset.c:96:12" }
+}

@@ -1,0 +1,3 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_udp_socket_receive_notify.c"
+node: { title: "_nx_udp_socket_receive_notify" label: "_nx_udp_socket_receive_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_udp_socket_receive_notify.c:77:7" }
+}

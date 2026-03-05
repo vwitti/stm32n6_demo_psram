@@ -1,0 +1,8 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c"
+node: { title: "_tx_mutex_cleanup" label: "_tx_mutex_cleanup\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c:78:7" }
+node: { title: "_tx_thread_system_resume" label: "_tx_thread_system_resume\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:286:13" shape : ellipse }
+edge: { sourcename: "_tx_mutex_cleanup" targetname: "_tx_thread_system_resume" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c:199:29" }
+node: { title: "_tx_mutex_thread_release" label: "_tx_mutex_thread_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c:259:7" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_tx_mutex_thread_release" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_mutex_cleanup.c:300:13" }
+}

@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_raw_packet_processing.c"
+node: { title: "_nx_ip_raw_packet_processing" label: "_nx_ip_raw_packet_processing\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_raw_packet_processing.c:79:7" }
+node: { title: "_tx_thread_system_resume" label: "_tx_thread_system_resume\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:286:13" shape : ellipse }
+edge: { sourcename: "_nx_ip_raw_packet_processing" targetname: "_tx_thread_system_resume" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_raw_packet_processing.c:165:9" }
+node: { title: "_nx_packet_release" label: "_nx_packet_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:116:6" shape : ellipse }
+edge: { sourcename: "_nx_ip_raw_packet_processing" targetname: "_nx_packet_release" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_raw_packet_processing.c:174:13" }
+}

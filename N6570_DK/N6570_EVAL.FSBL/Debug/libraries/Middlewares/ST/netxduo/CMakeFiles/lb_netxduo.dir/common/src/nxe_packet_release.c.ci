@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_release.c"
+node: { title: "_nxe_packet_release" label: "_nxe_packet_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_release.c:73:7" }
+node: { title: "_nx_packet_release" label: "_nx_packet_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:116:6" shape : ellipse }
+edge: { sourcename: "_nxe_packet_release" targetname: "_nx_packet_release" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_release.c:106:15" }
+}

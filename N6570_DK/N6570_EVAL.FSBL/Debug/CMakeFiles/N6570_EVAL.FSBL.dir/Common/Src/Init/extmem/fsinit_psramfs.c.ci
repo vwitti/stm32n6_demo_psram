@@ -1,0 +1,12 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c"
+node: { title: "MX_EXTMEM_init_ps_ramfs" label: "MX_EXTMEM_init_ps_ramfs\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c:33:6" }
+node: { title: "FX_GetBytePoolDesc" label: "FX_GetBytePoolDesc\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:58:16" shape : ellipse }
+edge: { sourcename: "MX_EXTMEM_init_ps_ramfs" targetname: "FX_GetBytePoolDesc" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c:35:41" }
+node: { title: "MX_FileX_Init_PSRAM_DISK_MM" label: "MX_FileX_Init_PSRAM_DISK_MM\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:66:6" shape : ellipse }
+edge: { sourcename: "MX_EXTMEM_init_ps_ramfs" targetname: "MX_FileX_Init_PSRAM_DISK_MM" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c:35:13" }
+node: { title: "StartScreenLcd_WriteLine" label: "StartScreenLcd_WriteLine\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:35:6" shape : ellipse }
+edge: { sourcename: "MX_EXTMEM_init_ps_ramfs" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c:38:6" }
+node: { title: "HAL_Thread_SystemStop" label: "HAL_Thread_SystemStop\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalSystemStop.h:15:6" shape : ellipse }
+edge: { sourcename: "MX_EXTMEM_init_ps_ramfs" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c:39:6" }
+edge: { sourcename: "MX_EXTMEM_init_ps_ramfs" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_psramfs.c:41:5" }
+}

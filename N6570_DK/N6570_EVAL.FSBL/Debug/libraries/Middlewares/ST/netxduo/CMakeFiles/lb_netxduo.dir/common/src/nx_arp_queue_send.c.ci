@@ -1,0 +1,8 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_queue_send.c"
+node: { title: "_nx_arp_queue_send" label: "_nx_arp_queue_send\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_queue_send.c:78:7" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_nx_arp_queue_send" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_queue_send.c:139:25" }
+node: { title: "_nx_packet_transmit_release" label: "_nx_packet_transmit_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:117:6" shape : ellipse }
+edge: { sourcename: "_nx_arp_queue_send" targetname: "_nx_packet_transmit_release" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_queue_send.c:152:17" }
+edge: { sourcename: "_nx_arp_queue_send" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_queue_send.c:173:70" }
+}

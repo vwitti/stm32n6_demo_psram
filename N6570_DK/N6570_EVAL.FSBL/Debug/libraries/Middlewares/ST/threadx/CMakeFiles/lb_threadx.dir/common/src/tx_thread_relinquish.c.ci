@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_relinquish.c"
+node: { title: "_tx_thread_relinquish" label: "_tx_thread_relinquish\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_relinquish.c:78:7" }
+node: { title: "_tx_thread_stack_error_handler" label: "_tx_thread_stack_error_handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:284:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_relinquish" targetname: "_tx_thread_stack_error_handler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_relinquish.c:93:5" }
+node: { title: "_tx_thread_stack_analyze" label: "_tx_thread_stack_analyze\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:281:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_relinquish" targetname: "_tx_thread_stack_analyze" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_relinquish.c:93:5" }
+edge: { sourcename: "_tx_thread_relinquish" targetname: "_tx_thread_stack_error_handler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_relinquish.c:163:9" }
+edge: { sourcename: "_tx_thread_relinquish" targetname: "_tx_thread_stack_analyze" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_relinquish.c:163:9" }
+}

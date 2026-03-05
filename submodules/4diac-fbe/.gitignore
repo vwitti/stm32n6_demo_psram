@@ -1,0 +1,17 @@
+/build
+/4diac-forte
+/configurations/*
+!/configurations/native-toolchain.txt
+!/configurations/debug.txt
+!/configurations/inc
+!/configurations/test
+!/configurations/releases
+/dependencies/*
+!/dependencies/recipes
+compile_commands.json
+/modules/*/*
+!/modules/*/.gitignore
+/*.zip
+.gdbinit
+.gdb_history
+/Makefile

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_rarp_info_get.c"
+node: { title: "_nxe_rarp_info_get" label: "_nxe_rarp_info_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_rarp_info_get.c:84:7" }
+node: { title: "_nx_rarp_info_get" label: "_nx_rarp_info_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_rarp.h:97:6" shape : ellipse }
+edge: { sourcename: "_nxe_rarp_info_get" targetname: "_nx_rarp_info_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_rarp_info_get.c:108:15" }
+}

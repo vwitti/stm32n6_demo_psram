@@ -1,0 +1,21 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:LL_AHB4_GRP1_EnableClock" label: "LL_AHB4_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:LL_APB4_GRP2_EnableClock" label: "LL_APB4_GRP2_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:3495:22" }
+node: { title: "HAL_MspInit" label: "HAL_MspInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:40:6" }
+edge: { sourcename: "HAL_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:45:3" }
+edge: { sourcename: "HAL_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:LL_APB4_GRP2_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:46:3" }
+node: { title: "HAL_PWREx_EnableVddIO2" label: "HAL_PWREx_EnableVddIO2\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:960:19" shape : ellipse }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_EnableVddIO2" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:64:3" }
+node: { title: "HAL_PWREx_ConfigVddIORange" label: "HAL_PWREx_ConfigVddIORange\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:952:19" shape : ellipse }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_ConfigVddIORange" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:65:3" }
+node: { title: "HAL_PWREx_EnableVddIO3" label: "HAL_PWREx_EnableVddIO3\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:962:19" shape : ellipse }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_EnableVddIO3" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:67:3" }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_ConfigVddIORange" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:68:3" }
+node: { title: "HAL_PWREx_EnableVddIO4" label: "HAL_PWREx_EnableVddIO4\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:964:19" shape : ellipse }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_EnableVddIO4" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:70:3" }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_ConfigVddIORange" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:71:3" }
+node: { title: "HAL_PWREx_EnableVddIO5" label: "HAL_PWREx_EnableVddIO5\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:966:19" shape : ellipse }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_EnableVddIO5" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:73:3" }
+edge: { sourcename: "HAL_MspInit" targetname: "HAL_PWREx_ConfigVddIORange" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:74:3" }
+node: { title: "HAL_MspDeInit" label: "HAL_MspDeInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/stm32n6xx_hal_msp.c:87:6" }
+}

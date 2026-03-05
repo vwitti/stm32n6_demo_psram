@@ -1,0 +1,6 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_test.c:67:16:OTP_Check_High_Speed_XSPI	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_test.c:102:6:BackGroundTestInit	48	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_test.c:122:6:BackGroundTestAllInitialTestsDone	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_test.c:127:13:ASG_EVO_SelfCheck	80	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_test.c:182:6:ThreadASG_TestTask	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_test.c:204:13:SelfCheckASG_TestTask	4	static

@@ -1,0 +1,6 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/psram_test.c:19:17:lfsr32_next	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/psram_test.c:29:20:mem_barrier	4	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/psram_test.c:31:5:mem_fill_verify_u32	48	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/psram_test.c:48:5:pseudo_rand_pattern	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/psram_test.c:58:6:fsbl_psram_test	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Test/psram_test.c:92:6:fsbl_psram_test_forever	56	static

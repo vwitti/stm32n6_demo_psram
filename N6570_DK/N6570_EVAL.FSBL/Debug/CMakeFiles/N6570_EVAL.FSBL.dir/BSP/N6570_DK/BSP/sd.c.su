@@ -1,0 +1,9 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22:LL_AHB4_GRP1_EnableClock	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1755:22:LL_AHB5_GRP1_EnableClock	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1891:22:LL_AHB5_GRP1_DisableClock	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:45:6:MX_SDMMC2_SD_Init	8	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:61:6:MX_SDMMC2_SD_Pins	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:87:6:HAL_SD_MspInit	440	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:155:6:HAL_SD_MspDeInit	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:188:6:EXTI12_IRQHandler	8	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/sd.c:202:6:SDMMC2_IRQHandler	8	static

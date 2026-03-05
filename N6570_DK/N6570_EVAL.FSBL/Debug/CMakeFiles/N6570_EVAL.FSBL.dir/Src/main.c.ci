@@ -1,0 +1,73 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:LL_AHB3_GRP1_EnableClock" label: "LL_AHB3_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1165:22" }
+node: { title: "main" label: "main\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:56:5" }
+node: { title: "MPU_Config" label: "MPU_Config\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/mcu.h:31:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MPU_Config" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:59:3" }
+node: { title: "HAL_Init" label: "HAL_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:795:19" shape : ellipse }
+edge: { sourcename: "main" targetname: "HAL_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:69:3" }
+node: { title: "HAL_PWREx_EnableVddIO2" label: "HAL_PWREx_EnableVddIO2\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_pwr_ex.h:960:19" shape : ellipse }
+edge: { sourcename: "main" targetname: "HAL_PWREx_EnableVddIO2" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:72:3" }
+node: { title: "SystemClock_Init" label: "SystemClock_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/hw/system_clocks.h:52:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "SystemClock_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:75:3" }
+edge: { sourcename: "main" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:77:3" }
+node: { title: "MX_GPIO_Init" label: "MX_GPIO_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:72:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:80:3" }
+node: { title: "MX_HPDMA1_Init" label: "MX_HPDMA1_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/hpdma.h:34:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_HPDMA1_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:81:3" }
+node: { title: "MX_USART_ConsoleDeviceInit" label: "MX_USART_ConsoleDeviceInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/usart.h:42:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_USART_ConsoleDeviceInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:84:3" }
+node: { title: "puts" label: "__builtin_puts\n<built-in>" shape : ellipse }
+edge: { sourcename: "main" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:85:3" }
+node: { title: "SystemClock_Dump" label: "SystemClock_Dump\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/hw/system_clocks.h:53:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "SystemClock_Dump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:86:3" }
+node: { title: "StartScreenLcd_init" label: "StartScreenLcd_init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:33:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "StartScreenLcd_init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:89:3" }
+node: { title: "StartScreenLcd_DumpVersionInfo" label: "StartScreenLcd_DumpVersionInfo\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:32:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "StartScreenLcd_DumpVersionInfo" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:90:3" }
+node: { title: "StartScreenLcd_WriteLine" label: "StartScreenLcd_WriteLine\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:35:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:91:3" }
+node: { title: "UserLed_Green_On" label: "UserLed_Green_On\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:78:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "UserLed_Green_On" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:92:3" }
+node: { title: "UserLed_Red_Off" label: "UserLed_Red_Off\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:77:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "UserLed_Red_Off" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:93:3" }
+node: { title: "MX_ETH_Init" label: "MX_ETH_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/eth.h:40:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_ETH_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:95:3" }
+node: { title: "MX_XSPI1_Init" label: "MX_XSPI1_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/xspi.h:34:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_XSPI1_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:96:3" }
+node: { title: "MX_XSPI2_Init" label: "MX_XSPI2_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/xspi.h:35:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_XSPI2_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:97:3" }
+node: { title: "MX_BSEC_Init" label: "MX_BSEC_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/bsec.h:31:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_BSEC_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:98:3" }
+edge: { sourcename: "main" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:100:3" }
+node: { title: "MX_ThreadX_Init" label: "MX_ThreadX_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_threadx.h:60:6" shape : ellipse }
+edge: { sourcename: "main" targetname: "MX_ThreadX_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:101:3" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" label: "RISAF_Config\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:112:13" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:LL_AHB3_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:116:3" }
+node: { title: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "HAL_RIF_RIMC_ConfigMasterAttributes\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_rif.h:1460:10" shape : ellipse }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:121:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:122:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:123:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:124:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:125:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:126:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RIMC_ConfigMasterAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:127:3" }
+node: { title: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "HAL_RIF_RISC_SetSlaveSecureAttributes\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_rif.h:1474:12" shape : ellipse }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:129:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:130:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:131:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:132:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:133:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:134:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:135:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_RIF_RISC_SetSlaveSecureAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:136:3" }
+node: { title: "HAL_GPIO_ConfigPinAttributes" label: "HAL_GPIO_ConfigPinAttributes\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:507:19" shape : ellipse }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:139:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:140:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:141:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:142:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:143:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:144:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:145:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:146:3" }
+edge: { sourcename: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:RISAF_Config" targetname: "HAL_GPIO_ConfigPinAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/main.c:147:3" }
+}

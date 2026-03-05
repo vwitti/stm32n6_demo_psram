@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_packet_deferred_receive.c"
+node: { title: "_nx_arp_packet_deferred_receive" label: "_nx_arp_packet_deferred_receive\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_packet_deferred_receive.c:78:7" }
+node: { title: "_nx_packet_release" label: "_nx_packet_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:116:6" shape : ellipse }
+edge: { sourcename: "_nx_arp_packet_deferred_receive" targetname: "_nx_packet_release" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_packet_deferred_receive.c:105:9" }
+node: { title: "_tx_event_flags_set" label: "_tx_event_flags_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1575:13" shape : ellipse }
+edge: { sourcename: "_nx_arp_packet_deferred_receive" targetname: "_tx_event_flags_set" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_arp_packet_deferred_receive.c:137:9" }
+}

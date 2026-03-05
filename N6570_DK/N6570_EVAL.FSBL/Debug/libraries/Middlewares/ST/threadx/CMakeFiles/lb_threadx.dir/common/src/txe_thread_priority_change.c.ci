@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_priority_change.c"
+node: { title: "_txe_thread_priority_change" label: "_txe_thread_priority_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_priority_change.c:78:7" }
+node: { title: "_tx_thread_priority_change" label: "_tx_thread_priority_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1768:13" shape : ellipse }
+edge: { sourcename: "_txe_thread_priority_change" targetname: "_tx_thread_priority_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_priority_change.c:127:19" }
+}

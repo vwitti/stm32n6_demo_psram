@@ -1,0 +1,15 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c"
+node: { title: "MPU_Config" label: "MPU_Config\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:5:6" }
+node: { title: "HAL_MPU_Disable" label: "HAL_MPU_Disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:312:6" shape : ellipse }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_Disable" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:16:3" }
+node: { title: "HAL_MPU_ConfigMemoryAttributes" label: "HAL_MPU_ConfigMemoryAttributes\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:316:6" shape : ellipse }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_ConfigMemoryAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:23:3" }
+node: { title: "HAL_MPU_ConfigRegion" label: "HAL_MPU_ConfigRegion\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:315:6" shape : ellipse }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_ConfigRegion" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:40:3" }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_ConfigMemoryAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:49:3" }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_ConfigRegion" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:64:3" }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_ConfigMemoryAttributes" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:70:3" }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_ConfigRegion" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:85:3" }
+node: { title: "HAL_MPU_Enable" label: "HAL_MPU_Enable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:311:6" shape : ellipse }
+edge: { sourcename: "MPU_Config" targetname: "HAL_MPU_Enable" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/FSBL/mcu.c:89:3" }
+}

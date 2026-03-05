@@ -1,0 +1,10 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c"
+node: { title: "Error_Handler" label: "Error_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c:28:6" }
+node: { title: "puts" label: "__builtin_puts\n<built-in>" shape : ellipse }
+edge: { sourcename: "Error_Handler" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c:32:3" }
+edge: { sourcename: "Error_Handler" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c:33:3" }
+edge: { sourcename: "Error_Handler" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c:34:3" }
+node: { title: "HAL_Thread_SystemStop" label: "HAL_Thread_SystemStop\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalSystemStop.h:15:6" shape : ellipse }
+edge: { sourcename: "Error_Handler" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c:35:3" }
+node: { title: "Error_Handler_NoPrintf" label: "Error_Handler_NoPrintf\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/error_handler.c:40:6" }
+}

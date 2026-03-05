@@ -1,0 +1,3 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_initialize.c"
+node: { title: "_nx_tcp_initialize" label: "_nx_tcp_initialize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_initialize.c:76:7" }
+}

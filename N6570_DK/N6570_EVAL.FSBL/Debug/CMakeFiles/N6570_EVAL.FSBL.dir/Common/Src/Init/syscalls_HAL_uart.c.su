@@ -1,0 +1,2 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:49:6:syscall_HAL_UART_write	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/syscalls_HAL_uart.c:56:6:syscall_HAL_UART_read	24	static

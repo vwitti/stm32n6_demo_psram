@@ -1,0 +1,8 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_deferred_link_status_process.c"
+node: { title: "_nx_ip_deferred_link_status_process" label: "_nx_ip_deferred_link_status_process\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_deferred_link_status_process.c:83:6" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_nx_ip_deferred_link_status_process" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_deferred_link_status_process.c:111:42" }
+edge: { sourcename: "_nx_ip_deferred_link_status_process" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_deferred_link_status_process.c:115:13" }
+node: { title: "nx_link_vlan_interface_status_change" label: "nx_link_vlan_interface_status_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_link.h:152:6" shape : ellipse }
+edge: { sourcename: "_nx_ip_deferred_link_status_process" targetname: "nx_link_vlan_interface_status_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_deferred_link_status_process.c:119:13" }
+}

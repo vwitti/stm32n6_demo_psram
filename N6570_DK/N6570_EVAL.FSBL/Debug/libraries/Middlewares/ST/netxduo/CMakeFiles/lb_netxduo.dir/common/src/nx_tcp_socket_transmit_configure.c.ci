@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_transmit_configure.c"
+node: { title: "_nx_tcp_socket_transmit_configure" label: "_nx_tcp_socket_transmit_configure\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_transmit_configure.c:86:7" }
+node: { title: "_tx_mutex_get" label: "_tx_mutex_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1616:13" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_transmit_configure" targetname: "_tx_mutex_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_transmit_configure.c:100:5" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_transmit_configure" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_transmit_configure.c:110:5" }
+}

@@ -1,0 +1,4 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ftp.c:60:6:MX_NetXDuo_Init_FTP_CreatOpen	40	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ftp.c:98:6:MX_NetXDuo_Init_FTP_Close	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ftp.c:117:13:MX_NetXDuo_Init_FTP_DownloadFileInt	48	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ftp.c:199:6:MX_NetXDuo_Init_FTP_DownloadFile	16	static

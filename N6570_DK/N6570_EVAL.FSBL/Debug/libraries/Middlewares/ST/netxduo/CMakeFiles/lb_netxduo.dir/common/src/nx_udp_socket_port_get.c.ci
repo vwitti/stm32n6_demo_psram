@@ -1,0 +1,3 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_udp_socket_port_get.c"
+node: { title: "_nx_udp_socket_port_get" label: "_nx_udp_socket_port_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_udp_socket_port_get.c:75:7" }
+}

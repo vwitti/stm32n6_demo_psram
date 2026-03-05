@@ -1,0 +1,19 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c"
+node: { title: "_fx_unicode_file_create" label: "_fx_unicode_file_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:88:7" }
+node: { title: "_tx_mutex_get" label: "_tx_mutex_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1616:13" shape : ellipse }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_tx_mutex_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:131:5" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:146:9" }
+node: { title: "_fx_unicode_directory_search" label: "_fx_unicode_directory_search\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_unicode.h:100:7" shape : ellipse }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_fx_unicode_directory_search" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:156:15" }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:166:9" }
+node: { title: "_fx_file_create" label: "_fx_file_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_file.h:67:6" shape : ellipse }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_fx_file_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:191:19" }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:216:9" }
+node: { title: "_fx_directory_search" label: "_fx_directory_search\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_directory.h:134:7" shape : ellipse }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_fx_directory_search" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:229:15" }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:239:9" }
+node: { title: "_fx_unicode_directory_entry_change" label: "_fx_unicode_directory_entry_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_unicode.h:106:6" shape : ellipse }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_fx_unicode_directory_entry_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:246:15" }
+edge: { sourcename: "_fx_unicode_file_create" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_unicode_file_create.c:287:5" }
+}

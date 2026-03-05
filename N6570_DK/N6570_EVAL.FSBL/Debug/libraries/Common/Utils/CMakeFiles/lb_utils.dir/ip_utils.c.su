@@ -1,0 +1,2 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/ip_utils.c:18:10:ip_utils_convert_ipstr_to_uint32	40	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/ip_utils.c:28:6:ip_utils_convert_uint32_to_ipstr	40	static

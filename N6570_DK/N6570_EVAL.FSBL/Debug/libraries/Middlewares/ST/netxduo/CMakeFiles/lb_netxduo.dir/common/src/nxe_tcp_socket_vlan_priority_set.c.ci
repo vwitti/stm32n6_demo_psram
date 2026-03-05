@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_vlan_priority_set.c"
+node: { title: "_nxe_tcp_socket_vlan_priority_set" label: "_nxe_tcp_socket_vlan_priority_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_vlan_priority_set.c:71:6" }
+node: { title: "_nx_tcp_socket_vlan_priority_set" label: "_nx_tcp_socket_vlan_priority_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:350:6" shape : ellipse }
+edge: { sourcename: "_nxe_tcp_socket_vlan_priority_set" targetname: "_nx_tcp_socket_vlan_priority_set" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_vlan_priority_set.c:90:15" }
+}

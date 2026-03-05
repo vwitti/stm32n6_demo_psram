@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_file_extended_seek.c"
+node: { title: "_fxe_file_extended_seek" label: "_fxe_file_extended_seek\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_file_extended_seek.c:74:7" }
+node: { title: "_fx_file_extended_seek" label: "_fx_file_extended_seek\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_file.h:94:6" shape : ellipse }
+edge: { sourcename: "_fxe_file_extended_seek" targetname: "_fx_file_extended_seek" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_file_extended_seek.c:90:15" }
+}

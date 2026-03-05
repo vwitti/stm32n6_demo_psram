@@ -1,0 +1,27 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:LL_AHB4_GRP1_EnableClock" label: "LL_AHB4_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22" }
+node: { title: "MX_GPIO_Init" label: "MX_GPIO_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:35:6" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:40:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:41:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:42:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:43:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:44:3" }
+node: { title: "HAL_GPIO_Init" label: "HAL_GPIO_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:467:19" shape : ellipse }
+edge: { sourcename: "MX_GPIO_Init" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:50:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:58:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:64:3" }
+node: { title: "HAL_GPIO_WritePin" label: "HAL_GPIO_WritePin\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:481:19" shape : ellipse }
+edge: { sourcename: "MX_GPIO_Init" targetname: "HAL_GPIO_WritePin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:66:3" }
+edge: { sourcename: "MX_GPIO_Init" targetname: "HAL_GPIO_WritePin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:67:3" }
+node: { title: "UserLed_Red_On" label: "UserLed_Red_On\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:70:6" }
+edge: { sourcename: "UserLed_Red_On" targetname: "HAL_GPIO_WritePin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:72:2" }
+node: { title: "UserLed_Red_Off" label: "UserLed_Red_Off\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:75:6" }
+edge: { sourcename: "UserLed_Red_Off" targetname: "HAL_GPIO_WritePin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:77:2" }
+node: { title: "UserLed_Green_On" label: "UserLed_Green_On\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:80:6" }
+edge: { sourcename: "UserLed_Green_On" targetname: "HAL_GPIO_WritePin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:82:2" }
+node: { title: "UserLed_Green_Off" label: "UserLed_Green_Off\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:85:6" }
+edge: { sourcename: "UserLed_Green_Off" targetname: "HAL_GPIO_WritePin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:87:2" }
+node: { title: "UserButton1_Pressed" label: "UserButton1_Pressed\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:90:6" }
+node: { title: "HAL_GPIO_ReadPin" label: "HAL_GPIO_ReadPin\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:480:19" shape : ellipse }
+edge: { sourcename: "UserButton1_Pressed" targetname: "HAL_GPIO_ReadPin" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/gpio_peripherals.c:92:24" }
+}

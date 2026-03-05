@@ -1,0 +1,3 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxde_ipv6_default_router_add.c"
+node: { title: "_nxde_ipv6_default_router_add" label: "_nxde_ipv6_default_router_add\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxde_ipv6_default_router_add.c:87:7" }
+}

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_socket_checksum_disable.c"
+node: { title: "_nxe_udp_socket_checksum_disable" label: "_nxe_udp_socket_checksum_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_socket_checksum_disable.c:78:7" }
+node: { title: "_nx_udp_socket_checksum_disable" label: "_nx_udp_socket_checksum_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_udp.h:108:6" shape : ellipse }
+edge: { sourcename: "_nxe_udp_socket_checksum_disable" targetname: "_nx_udp_socket_checksum_disable" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_socket_checksum_disable.c:100:15" }
+}

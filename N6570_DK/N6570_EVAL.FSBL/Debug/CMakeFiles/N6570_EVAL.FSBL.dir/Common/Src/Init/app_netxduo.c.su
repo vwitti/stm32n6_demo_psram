@@ -1,0 +1,5 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo.c:58:9:get_MX_NetXDuo_Instance	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo.c:63:18:get_MX_NetXDuo_PacketPool	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo.c:68:6:MX_NetXDuo_DumpAddress	64	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo.c:91:6:MX_NetXDuo_Init	56	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo.c:197:6:App_NetXDuo_GetPacketPoolInfo	80	static

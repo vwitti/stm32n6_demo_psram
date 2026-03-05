@@ -1,0 +1,18 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c"
+node: { title: "fx_stm32_sd_init" label: "fx_stm32_sd_init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:31:5" }
+node: { title: "fx_stm32_sd_deinit" label: "fx_stm32_sd_deinit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:55:5" }
+node: { title: "fx_stm32_sd_get_status" label: "fx_stm32_sd_get_status\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:82:5" }
+node: { title: "HAL_SD_GetCardState" label: "HAL_SD_GetCardState\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_sd.h:689:25" shape : ellipse }
+edge: { sourcename: "fx_stm32_sd_get_status" targetname: "HAL_SD_GetCardState" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:90:6" }
+node: { title: "fx_stm32_sd_read_blocks" label: "fx_stm32_sd_read_blocks\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:110:5" }
+node: { title: "HAL_SD_ReadBlocks_DMA" label: "HAL_SD_ReadBlocks_DMA\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_sd.h:643:19" shape : ellipse }
+edge: { sourcename: "fx_stm32_sd_read_blocks" targetname: "HAL_SD_ReadBlocks_DMA" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:118:6" }
+node: { title: "fx_stm32_sd_write_blocks" label: "fx_stm32_sd_write_blocks\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:138:5" }
+node: { title: "HAL_SD_WriteBlocks_DMA" label: "HAL_SD_WriteBlocks_DMA\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_sd.h:645:19" shape : ellipse }
+edge: { sourcename: "fx_stm32_sd_write_blocks" targetname: "HAL_SD_WriteBlocks_DMA" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:146:6" }
+node: { title: "HAL_SD_TxCpltCallback" label: "HAL_SD_TxCpltCallback\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:163:6" }
+node: { title: "_txe_semaphore_put" label: "_txe_semaphore_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1727:13" shape : ellipse }
+edge: { sourcename: "HAL_SD_TxCpltCallback" targetname: "_txe_semaphore_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:169:3" }
+node: { title: "HAL_SD_RxCpltCallback" label: "HAL_SD_RxCpltCallback\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:181:6" }
+edge: { sourcename: "HAL_SD_RxCpltCallback" targetname: "_txe_semaphore_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/fx_stm32_sd_driver_glue.c:188:3" }
+}

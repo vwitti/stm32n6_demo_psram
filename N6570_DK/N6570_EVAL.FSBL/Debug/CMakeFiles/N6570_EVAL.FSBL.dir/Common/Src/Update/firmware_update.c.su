@@ -1,0 +1,10 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:43:10:Update_Check_FSBL_Bootloader	120	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:94:10:Update_FSBL_Bootloader	624	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:212:10:Update_Check_FSBL_Application	120	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:264:10:Update_APPLI_Application	624	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:382:10:Update_Check_TCSROMFS	144	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:444:10:Update_TCSROMFS	624	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:562:10:Update_Check_TOUCHGFX_Assets	144	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:622:10:Update_TOUCHGFX_Assets	624	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:740:10:Update_CheckFtpServer	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:768:10:Update_CloseFtpServer	16	static

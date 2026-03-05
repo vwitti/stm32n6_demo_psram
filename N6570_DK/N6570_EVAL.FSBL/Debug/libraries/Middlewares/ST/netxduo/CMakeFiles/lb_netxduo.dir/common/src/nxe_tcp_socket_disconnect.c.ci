@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_disconnect.c"
+node: { title: "_nxe_tcp_socket_disconnect" label: "_nxe_tcp_socket_disconnect\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_disconnect.c:79:7" }
+node: { title: "_nx_tcp_socket_disconnect" label: "_nx_tcp_socket_disconnect\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:267:6" shape : ellipse }
+edge: { sourcename: "_nxe_tcp_socket_disconnect" targetname: "_nx_tcp_socket_disconnect" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_disconnect.c:101:15" }
+}

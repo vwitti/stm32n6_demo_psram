@@ -1,0 +1,5 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/extmem_manager.c:83:6:Error_Handler2	8	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/extmem_manager.c:94:10:APS256_WriteReg	104	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/extmem_manager.c:138:10:APS256_ReadReg	104	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/extmem_manager.c:179:13:Configure_APMemory	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/extmem_manager.c:258:6:MX_EXTMEM_MANAGER_Init	88	static

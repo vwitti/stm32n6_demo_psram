@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_default_get_copy.c"
+node: { title: "_fx_directory_default_get_copy" label: "_fx_directory_default_get_copy\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_default_get_copy.c:79:7" }
+node: { title: "_fx_directory_default_get" label: "_fx_directory_default_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_directory.h:59:6" shape : ellipse }
+edge: { sourcename: "_fx_directory_default_get_copy" targetname: "_fx_directory_default_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_default_get_copy.c:88:15" }
+node: { title: "_fx_utility_string_length_get" label: "_fx_utility_string_length_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:81:9" shape : ellipse }
+edge: { sourcename: "_fx_directory_default_get_copy" targetname: "_fx_utility_string_length_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_default_get_copy.c:93:50" }
+node: { title: "_fx_utility_memory_copy" label: "_fx_utility_memory_copy\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:67:9" shape : ellipse }
+edge: { sourcename: "_fx_directory_default_get_copy" targetname: "_fx_utility_memory_copy" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_default_get_copy.c:100:13" }
+}

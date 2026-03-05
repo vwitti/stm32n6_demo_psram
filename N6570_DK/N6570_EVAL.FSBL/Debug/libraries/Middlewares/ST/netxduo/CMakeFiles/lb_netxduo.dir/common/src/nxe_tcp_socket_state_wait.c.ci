@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_state_wait.c"
+node: { title: "_nxe_tcp_socket_state_wait" label: "_nxe_tcp_socket_state_wait\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_state_wait.c:80:7" }
+node: { title: "_nx_tcp_socket_state_wait" label: "_nx_tcp_socket_state_wait\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:284:6" shape : ellipse }
+edge: { sourcename: "_nxe_tcp_socket_state_wait" targetname: "_nx_tcp_socket_state_wait" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_state_wait.c:108:15" }
+}

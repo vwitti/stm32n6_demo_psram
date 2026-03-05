@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_create.c"
+node: { title: "_txe_queue_create" label: "_txe_queue_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_create.c:83:7" }
+node: { title: "_tx_thread_system_preempt_check" label: "_tx_thread_system_preempt_check\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:285:13" shape : ellipse }
+edge: { sourcename: "_txe_queue_create" targetname: "_tx_thread_system_preempt_check" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_create.c:156:9" }
+node: { title: "_tx_queue_create" label: "_tx_queue_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1653:13" shape : ellipse }
+edge: { sourcename: "_txe_queue_create" targetname: "_tx_queue_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_queue_create.c:234:19" }
+}

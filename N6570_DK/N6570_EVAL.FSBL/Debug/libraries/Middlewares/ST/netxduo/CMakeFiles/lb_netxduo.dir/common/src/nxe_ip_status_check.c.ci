@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_status_check.c"
+node: { title: "_nxe_ip_status_check" label: "_nxe_ip_status_check\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_status_check.c:80:7" }
+node: { title: "_nx_ip_status_check" label: "_nx_ip_status_check\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:162:6" shape : ellipse }
+edge: { sourcename: "_nxe_ip_status_check" targetname: "_nx_ip_status_check" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_status_check.c:104:15" }
+}

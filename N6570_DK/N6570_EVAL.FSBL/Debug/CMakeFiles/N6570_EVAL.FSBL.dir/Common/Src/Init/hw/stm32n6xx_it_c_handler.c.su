@@ -1,0 +1,7 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:28:6:nmi_dump_c	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:38:6:hardfault_dump_c	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:47:6:memmange_dump_c	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:56:6:busfault_dump_c	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:65:6:usagefault_dump_c	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:74:6:securefault_dump_c	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:83:6:debugmon_dump_c	16	static

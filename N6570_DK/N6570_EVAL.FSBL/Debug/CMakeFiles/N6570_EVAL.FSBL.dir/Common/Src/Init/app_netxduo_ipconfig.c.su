@@ -1,0 +1,6 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ipconfig.c:48:6:App_NetXDuo_SetupIpConfiguration	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ipconfig.c:105:6:App_NetXDuo_Configure_IP_Address	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ipconfig.c:175:8:App_NetXDuo_GetFTP_Server_Address	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ipconfig.c:180:8:App_NetXDuo_GetFTP_Server_User	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ipconfig.c:185:8:App_NetXDuo_GetFTP_Server_Pass	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_ipconfig.c:190:6:App_NetXDuo_GetFTP_Server_Port	4	static

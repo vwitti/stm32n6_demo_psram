@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c"
+node: { title: "_tx_timer_thread_entry" label: "_tx_timer_thread_entry\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c:77:7" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_tx_timer_thread_entry" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c:307:21" }
+node: { title: "_tx_timer_system_activate" label: "_tx_timer_system_activate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_timer.h:64:13" shape : ellipse }
+edge: { sourcename: "_tx_timer_thread_entry" targetname: "_tx_timer_system_activate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c:416:21" }
+node: { title: "_tx_thread_system_suspend" label: "_tx_thread_system_suspend\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:289:13" shape : ellipse }
+edge: { sourcename: "_tx_timer_thread_entry" targetname: "_tx_thread_system_suspend" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_timer_thread_entry.c:462:17" }
+}

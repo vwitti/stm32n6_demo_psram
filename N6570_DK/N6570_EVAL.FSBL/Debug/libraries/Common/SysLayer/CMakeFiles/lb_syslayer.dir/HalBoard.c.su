@@ -1,0 +1,3 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:23:6:HAL_Board_Led_ERR	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:35:6:HAL_Board_Led_RUN	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:47:10:HAL_Board_Debug_UART_Write	32	static

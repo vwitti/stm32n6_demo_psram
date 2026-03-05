@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_arp_static_entries_delete.c"
+node: { title: "_nxe_arp_static_entries_delete" label: "_nxe_arp_static_entries_delete\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_arp_static_entries_delete.c:78:7" }
+node: { title: "_nx_arp_static_entries_delete" label: "_nx_arp_static_entries_delete\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_arp.h:123:6" shape : ellipse }
+edge: { sourcename: "_nxe_arp_static_entries_delete" targetname: "_nx_arp_static_entries_delete" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_arp_static_entries_delete.c:101:15" }
+}

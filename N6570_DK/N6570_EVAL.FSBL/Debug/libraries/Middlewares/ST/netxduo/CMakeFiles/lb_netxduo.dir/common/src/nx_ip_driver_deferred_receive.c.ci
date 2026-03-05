@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_driver_deferred_receive.c"
+node: { title: "_nx_ip_driver_deferred_receive" label: "_nx_ip_driver_deferred_receive\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_driver_deferred_receive.c:76:7" }
+node: { title: "_nx_packet_release" label: "_nx_packet_release\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:116:6" shape : ellipse }
+edge: { sourcename: "_nx_ip_driver_deferred_receive" targetname: "_nx_packet_release" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_driver_deferred_receive.c:116:5" }
+}

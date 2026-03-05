@@ -1,0 +1,4 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_sd_driver.c:36:12:check_sd_status	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_sd_driver.c:57:7:fx_stm32_sd_driver	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_sd_driver.c:258:13:sd_read_data	72	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_sd_driver.c:342:13:sd_write_data	72	static,ignoring_inline_asm

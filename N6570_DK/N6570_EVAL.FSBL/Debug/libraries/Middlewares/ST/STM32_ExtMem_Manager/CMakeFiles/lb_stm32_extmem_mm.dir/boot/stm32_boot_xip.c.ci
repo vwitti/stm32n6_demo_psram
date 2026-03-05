@@ -1,0 +1,17 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c"
+node: { title: "BOOT_Application" label: "BOOT_Application\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:60:20" }
+edge: { sourcename: "BOOT_Application" targetname: "MapMemory" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:65:10" }
+edge: { sourcename: "BOOT_Application" targetname: "JumpToApplication" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:69:12" }
+node: { title: "MapMemory" label: "MapMemory\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:87:20" }
+node: { title: "EXTMEM_MemoryMappedMode" label: "EXTMEM_MemoryMappedMode\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:150:22" shape : ellipse }
+edge: { sourcename: "MapMemory" targetname: "EXTMEM_MemoryMappedMode" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:94:13" }
+node: { title: "EXTMEM_DeInit" label: "EXTMEM_DeInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:142:22" shape : ellipse }
+edge: { sourcename: "MapMemory" targetname: "EXTMEM_DeInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:104:11" }
+node: { title: "JumpToApplication" label: "JumpToApplication\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:123:20" }
+node: { title: "EXTMEM_GetMapAddress" label: "EXTMEM_GetMapAddress\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:151:22" shape : ellipse }
+edge: { sourcename: "JumpToApplication" targetname: "EXTMEM_GetMapAddress" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:130:20" }
+node: { title: "HAL_SuspendTick" label: "HAL_SuspendTick\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:816:6" shape : ellipse }
+edge: { sourcename: "JumpToApplication" targetname: "HAL_SuspendTick" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:136:3" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "JumpToApplication" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:182:3" }
+}

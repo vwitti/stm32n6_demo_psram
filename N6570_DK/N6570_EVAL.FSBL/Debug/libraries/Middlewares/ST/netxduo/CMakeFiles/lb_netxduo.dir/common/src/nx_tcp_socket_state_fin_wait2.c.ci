@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_fin_wait2.c"
+node: { title: "_nx_tcp_socket_state_fin_wait2" label: "_nx_tcp_socket_state_fin_wait2\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_fin_wait2.c:75:7" }
+node: { title: "_nx_tcp_packet_send_ack" label: "_nx_tcp_packet_send_ack\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:317:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_fin_wait2" targetname: "_nx_tcp_packet_send_ack" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_fin_wait2.c:104:9" }
+node: { title: "_nx_tcp_socket_thread_resume" label: "_nx_tcp_socket_thread_resume\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:345:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_fin_wait2" targetname: "_nx_tcp_socket_thread_resume" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_fin_wait2.c:111:13" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_fin_wait2" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_fin_wait2.c:121:25" }
+}

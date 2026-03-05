@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_server_socket_unlisten.c"
+node: { title: "_nxe_tcp_server_socket_unlisten" label: "_nxe_tcp_server_socket_unlisten\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_server_socket_unlisten.c:79:7" }
+node: { title: "_nx_tcp_server_socket_unlisten" label: "_nx_tcp_server_socket_unlisten\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:261:6" shape : ellipse }
+edge: { sourcename: "_nxe_tcp_server_socket_unlisten" targetname: "_nx_tcp_server_socket_unlisten" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_server_socket_unlisten.c:107:15" }
+}

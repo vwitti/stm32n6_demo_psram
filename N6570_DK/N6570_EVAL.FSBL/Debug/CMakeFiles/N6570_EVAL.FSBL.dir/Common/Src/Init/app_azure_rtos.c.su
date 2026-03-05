@@ -1,0 +1,4 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_azure_rtos.c:65:16:NX_GetBytePoolDesc	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_azure_rtos.c:71:16:FX_GetBytePoolDesc	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_azure_rtos.c:82:6:tx_application_define	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_azure_rtos.c:188:6:App_ThreadX_GetPoolInfo	72	static

@@ -1,0 +1,204 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c"
+node: { title: "Update_Check_FSBL_Bootloader" label: "Update_Check_FSBL_Bootloader\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:43:10" }
+node: { title: "puts" label: "__builtin_puts\n<built-in>" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:55:2" }
+node: { title: "kv_get" label: "kv_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/kv_store.h:52:13" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:57:9" }
+node: { title: "printf" label: "printf\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/stdio.h:206:5" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:61:3" }
+node: { title: "MX_NetXDuo_Init_FTP_DownloadFile" label: "MX_NetXDuo_Init_FTP_DownloadFile\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_netxduo.h:99:6" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:66:2" }
+node: { title: "snprintf" label: "snprintf\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/stdio.h:272:5" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:69:2" }
+node: { title: "MX_Filex_read_to_buffer" label: "MX_Filex_read_to_buffer\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:63:6" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "MX_Filex_read_to_buffer" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:70:8" }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:73:3" }
+node: { title: "EXTMEM_Read" label: "EXTMEM_Read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:143:22" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "EXTMEM_Read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:79:36" }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:82:3" }
+node: { title: "memcmp" label: "memcmp\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/string.h:30:7" shape : ellipse }
+edge: { sourcename: "Update_Check_FSBL_Bootloader" targetname: "memcmp" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:86:19" }
+node: { title: "Update_FSBL_Bootloader" label: "Update_FSBL_Bootloader\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:94:10" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:107:9" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:111:3" }
+node: { title: "StartScreenLcd_WriteLine" label: "StartScreenLcd_WriteLine\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:35:6" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:116:2" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:117:8" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:120:3" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:125:2" }
+node: { title: "MX_Filex_Get_Size" label: "MX_Filex_Get_Size\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:64:6" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "MX_Filex_Get_Size" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:126:2" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:129:3" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:135:2" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:136:2" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:143:3" }
+node: { title: "EXTMEM_EraseSector" label: "EXTMEM_EraseSector\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:147:22" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "EXTMEM_EraseSector" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:144:16" }
+node: { title: "putchar" label: "__builtin_putchar\n<built-in>" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:151:2" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:154:3" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:160:2" }
+node: { title: "MX_FileX_GetMedia_RamDisk" label: "MX_FileX_GetMedia_RamDisk\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:60:13" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "MX_FileX_GetMedia_RamDisk" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:163:8" }
+node: { title: "_fxe_file_open" label: "_fxe_file_open\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1577:6" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "_fxe_file_open" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:163:8" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:166:3" }
+node: { title: "_fxe_file_seek" label: "_fxe_file_seek\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1586:6" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "_fxe_file_seek" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:170:2" }
+node: { title: "_fxe_file_read" label: "_fxe_file_read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1580:6" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "_fxe_file_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:177:9" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:180:4" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:184:4" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:191:3" }
+node: { title: "EXTMEM_Write" label: "EXTMEM_Write\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:144:22" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "EXTMEM_Write" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:192:16" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:199:2" }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:202:3" }
+node: { title: "_fxe_file_close" label: "_fxe_file_close\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1568:6" shape : ellipse }
+edge: { sourcename: "Update_FSBL_Bootloader" targetname: "_fxe_file_close" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:207:2" }
+node: { title: "Update_Check_FSBL_Application" label: "Update_Check_FSBL_Application\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:212:10" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:224:2" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:226:9" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:230:3" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:235:2" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:238:2" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "MX_Filex_read_to_buffer" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:239:8" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:242:3" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "EXTMEM_Read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:248:36" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:251:3" }
+edge: { sourcename: "Update_Check_FSBL_Application" targetname: "memcmp" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:256:19" }
+node: { title: "Update_APPLI_Application" label: "Update_APPLI_Application\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:264:10" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:277:9" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:281:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:286:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:287:8" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:290:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:295:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "MX_Filex_Get_Size" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:296:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:299:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:305:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:306:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:313:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "EXTMEM_EraseSector" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:314:16" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:321:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:324:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:330:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "MX_FileX_GetMedia_RamDisk" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:333:8" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "_fxe_file_open" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:333:8" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:336:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "_fxe_file_seek" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:340:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "_fxe_file_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:347:9" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:350:4" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:354:4" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:361:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "EXTMEM_Write" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:362:16" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:369:2" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:372:3" }
+edge: { sourcename: "Update_APPLI_Application" targetname: "_fxe_file_close" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:377:2" }
+node: { title: "Update_Check_TCSROMFS" label: "Update_Check_TCSROMFS\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:382:10" }
+node: { title: "memset" label: "memset\n/home/volker/.eclipse/com.st.stm32cube.ide.mcu.rcp.product_2.0.0_1934254364_linux_gtk_x86_64/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.14.3.rel1.linux64_1.0.0.202510151430/tools/arm-none-eabi/include/string.h:33:9" shape : ellipse }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "memset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:391:2" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "memset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:392:2" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:399:2" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:401:9" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:405:3" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:410:2" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:413:2" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "MX_Filex_read_to_buffer" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:415:8" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:418:3" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "MX_Filex_read_to_buffer" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:425:8" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:429:3" }
+edge: { sourcename: "Update_Check_TCSROMFS" targetname: "memcmp" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:436:19" }
+node: { title: "Update_TCSROMFS" label: "Update_TCSROMFS\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:444:10" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:457:9" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:461:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:466:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:467:8" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:470:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:475:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "MX_Filex_Get_Size" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:476:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:479:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:485:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:486:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:493:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "EXTMEM_EraseSector" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:494:16" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:501:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:504:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:510:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "MX_FileX_GetMedia_RamDisk" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:513:8" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "_fxe_file_open" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:513:8" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:516:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "_fxe_file_seek" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:520:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "_fxe_file_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:527:9" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:530:4" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:534:4" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:541:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "EXTMEM_Write" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:542:16" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:549:2" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:552:3" }
+edge: { sourcename: "Update_TCSROMFS" targetname: "_fxe_file_close" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:557:2" }
+node: { title: "Update_Check_TOUCHGFX_Assets" label: "Update_Check_TOUCHGFX_Assets\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:562:10" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "memset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:571:2" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "memset" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:572:2" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:579:2" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:581:9" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:585:3" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:590:2" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:593:2" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "MX_Filex_read_to_buffer" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:595:8" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:598:3" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "MX_Filex_read_to_buffer" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:604:8" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:608:3" }
+edge: { sourcename: "Update_Check_TOUCHGFX_Assets" targetname: "memcmp" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:614:19" }
+node: { title: "Update_TOUCHGFX_Assets" label: "Update_TOUCHGFX_Assets\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:622:10" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "kv_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:635:9" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:639:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:644:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:645:8" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:648:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "snprintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:653:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "MX_Filex_Get_Size" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:654:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:657:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:663:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:664:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:671:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "EXTMEM_EraseSector" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:672:16" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:679:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:682:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:688:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "MX_FileX_GetMedia_RamDisk" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:691:8" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "_fxe_file_open" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:691:8" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:694:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "_fxe_file_seek" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:698:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "_fxe_file_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:705:9" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:708:4" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:712:4" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:719:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "EXTMEM_Write" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:720:16" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "putchar" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:727:2" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:730:3" }
+edge: { sourcename: "Update_TOUCHGFX_Assets" targetname: "_fxe_file_close" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:735:2" }
+node: { title: "Update_CheckFtpServer" label: "Update_CheckFtpServer\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:740:10" }
+node: { title: "App_NetXDuo_GetFTP_Server_Address" label: "App_NetXDuo_GetFTP_Server_Address\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_netxduo.h:90:8" shape : ellipse }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "App_NetXDuo_GetFTP_Server_Address" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:744:2" }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:744:2" }
+node: { title: "MX_NetXDuo_Init_FTP_CreatOpen" label: "MX_NetXDuo_Init_FTP_CreatOpen\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_netxduo.h:97:6" shape : ellipse }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "MX_NetXDuo_Init_FTP_CreatOpen" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:746:8" }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "App_NetXDuo_GetFTP_Server_Address" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:749:3" }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:749:3" }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "MX_NetXDuo_Init_FTP_DownloadFile" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:754:8" }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:757:3" }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:760:2" }
+node: { title: "kv_init" label: "kv_init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/kv_store.h:32:6" shape : ellipse }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "kv_init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:762:2" }
+node: { title: "kv_load_from_file" label: "kv_load_from_file\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/kv_store.h:43:5" shape : ellipse }
+edge: { sourcename: "Update_CheckFtpServer" targetname: "kv_load_from_file" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:763:2" }
+node: { title: "Update_CloseFtpServer" label: "Update_CloseFtpServer\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:768:10" }
+node: { title: "MX_NetXDuo_Init_FTP_Close" label: "MX_NetXDuo_Init_FTP_Close\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_netxduo.h:98:6" shape : ellipse }
+edge: { sourcename: "Update_CloseFtpServer" targetname: "MX_NetXDuo_Init_FTP_Close" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:772:8" }
+edge: { sourcename: "Update_CloseFtpServer" targetname: "App_NetXDuo_GetFTP_Server_Address" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:775:3" }
+edge: { sourcename: "Update_CloseFtpServer" targetname: "printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:775:3" }
+node: { title: "kv_free" label: "kv_free\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/kv_store.h:35:6" shape : ellipse }
+edge: { sourcename: "Update_CloseFtpServer" targetname: "kv_free" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:778:2" }
+edge: { sourcename: "Update_CloseFtpServer" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Update/firmware_update.c:779:2" }
+}

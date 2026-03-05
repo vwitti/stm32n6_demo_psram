@@ -1,0 +1,36 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c"
+node: { title: "ThreadASG_SystemInit" label: "ThreadASG_SystemInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:53:6" }
+node: { title: "puts" label: "__builtin_puts\n<built-in>" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "puts" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:60:2" }
+node: { title: "fsbl_perf_test" label: "fsbl_perf_test\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Test/perf_test.h:31:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "fsbl_perf_test" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:63:2" }
+node: { title: "HAL_Thread_Init" label: "HAL_Thread_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.h:21:8" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "HAL_Thread_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:66:2" }
+node: { title: "MX_EXTMEM_MANAGER_Init" label: "MX_EXTMEM_MANAGER_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/extmem/extmem_manager.h:54:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "MX_EXTMEM_MANAGER_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:67:2" }
+node: { title: "EXTMEM_MemoryMappedMode" label: "EXTMEM_MemoryMappedMode\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/stm32_extmem.h:150:22" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "EXTMEM_MemoryMappedMode" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:68:2" }
+node: { title: "MX_EXTMEM_xspi_Info" label: "MX_EXTMEM_xspi_Info\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/extmem/extmem_manager.h:55:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "MX_EXTMEM_xspi_Info" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:75:9" }
+node: { title: "my_assert_fail" label: "my_assert_fail\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.h:18:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:76:2" }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "MX_EXTMEM_xspi_Info" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:77:9" }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:78:2" }
+node: { title: "FX_GetBytePoolDesc" label: "FX_GetBytePoolDesc\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:58:16" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "FX_GetBytePoolDesc" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:81:16" }
+node: { title: "MX_FileX_Init" label: "MX_FileX_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/app_filex.h:55:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "MX_FileX_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:81:2" }
+node: { title: "StartScreenLcd_WriteLine" label: "StartScreenLcd_WriteLine\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/start_screen_lcd.h:35:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "StartScreenLcd_WriteLine" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:84:5" }
+node: { title: "fsbl_psram_test" label: "fsbl_psram_test\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Test/psram_test.h:31:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "fsbl_psram_test" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:85:8" }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:86:2" }
+node: { title: "MX_EXTMEM_init_ps_ramfs" label: "MX_EXTMEM_init_ps_ramfs\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/extmem/extmem_manager.h:59:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "MX_EXTMEM_init_ps_ramfs" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:87:2" }
+node: { title: "HAL_Board_Led_RUN" label: "HAL_Board_Led_RUN\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.h:19:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "HAL_Board_Led_RUN" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:94:3" }
+node: { title: "HAL_Delay" label: "HAL_Delay\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:811:6" shape : ellipse }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "HAL_Delay" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:95:3" }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "HAL_Board_Led_RUN" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:96:3" }
+edge: { sourcename: "ThreadASG_SystemInit" targetname: "HAL_Delay" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/systemthread_init.c:97:3" }
+}

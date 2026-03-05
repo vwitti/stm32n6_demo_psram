@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_system_date_get.c"
+node: { title: "_fxe_system_date_get" label: "_fxe_system_date_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_system_date_get.c:74:7" }
+node: { title: "_fx_system_date_get" label: "_fx_system_date_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_system.h:64:6" shape : ellipse }
+edge: { sourcename: "_fxe_system_date_get" targetname: "_fx_system_date_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_system_date_get.c:87:15" }
+}

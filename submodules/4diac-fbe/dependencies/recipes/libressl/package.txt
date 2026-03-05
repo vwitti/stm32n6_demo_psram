@@ -1,0 +1,1 @@
+https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-4.2.0.tar.gz -H sha256:0f7dba44d7cb8df8d53f2cfbf1955254bc128e0089595f1aba2facfaee8408b2 -X build.cmake

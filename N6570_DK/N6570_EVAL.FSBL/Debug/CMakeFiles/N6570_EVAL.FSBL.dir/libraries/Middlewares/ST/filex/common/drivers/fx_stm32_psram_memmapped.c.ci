@@ -1,0 +1,12 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c"
+node: { title: "fx_stm32_psram_memmapped" label: "fx_stm32_psram_memmapped\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:32:7" }
+node: { title: "_fx_utility_memory_set" label: "_fx_utility_memory_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1678:9" shape : ellipse }
+edge: { sourcename: "fx_stm32_psram_memmapped" targetname: "_fx_utility_memory_set" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:55:17" }
+node: { title: "_fx_utility_memory_copy" label: "_fx_utility_memory_copy\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1677:9" shape : ellipse }
+edge: { sourcename: "fx_stm32_psram_memmapped" targetname: "_fx_utility_memory_copy" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:90:15" }
+edge: { sourcename: "fx_stm32_psram_memmapped" targetname: "_fx_utility_memory_copy" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:117:15" }
+node: { title: "_fx_utility_16_unsigned_read" label: "_fx_utility_16_unsigned_read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_api.h:1671:9" shape : ellipse }
+edge: { sourcename: "fx_stm32_psram_memmapped" targetname: "_fx_utility_16_unsigned_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:155:33" }
+edge: { sourcename: "fx_stm32_psram_memmapped" targetname: "_fx_utility_memory_copy" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:165:13" }
+edge: { sourcename: "fx_stm32_psram_memmapped" targetname: "_fx_utility_memory_copy" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/drivers/fx_stm32_psram_memmapped.c:182:13" }
+}

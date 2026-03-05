@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_allocate.c"
+node: { title: "_nxe_packet_allocate" label: "_nxe_packet_allocate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_allocate.c:81:7" }
+node: { title: "_nx_packet_allocate" label: "_nx_packet_allocate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:96:6" shape : ellipse }
+edge: { sourcename: "_nxe_packet_allocate" targetname: "_nx_packet_allocate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_allocate.c:105:15" }
+}

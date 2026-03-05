@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_packet_send_ack.c"
+node: { title: "_nx_tcp_packet_send_ack" label: "_nx_tcp_packet_send_ack\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_packet_send_ack.c:84:7" }
+node: { title: "_nx_tcp_packet_send_control" label: "_nx_tcp_packet_send_control\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:322:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_packet_send_ack" targetname: "_nx_tcp_packet_send_control" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_packet_send_ack.c:86:5" }
+}

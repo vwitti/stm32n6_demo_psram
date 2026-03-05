@@ -1,0 +1,6 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/system_stm32n6xx_fsbl.c"
+node: { title: "SystemInit" label: "SystemInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/system_stm32n6xx_fsbl.c:175:6" }
+node: { title: "SystemCoreClockUpdate" label: "SystemCoreClockUpdate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/system_stm32n6xx_fsbl.c:317:6" }
+node: { title: "SECURE_SystemCoreClockUpdate" label: "SECURE_SystemCoreClockUpdate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/system_stm32n6xx_fsbl.c:470:24" }
+edge: { sourcename: "SECURE_SystemCoreClockUpdate" targetname: "SystemCoreClockUpdate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Src/system_stm32n6xx_fsbl.c:472:3" }
+}

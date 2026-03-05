@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_raw_packet_disable.c"
+node: { title: "_nxe_ip_raw_packet_disable" label: "_nxe_ip_raw_packet_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_raw_packet_disable.c:76:7" }
+node: { title: "_nx_ip_raw_packet_disable" label: "_nx_ip_raw_packet_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:152:6" shape : ellipse }
+edge: { sourcename: "_nxe_ip_raw_packet_disable" targetname: "_nx_ip_raw_packet_disable" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_raw_packet_disable.c:92:15" }
+}

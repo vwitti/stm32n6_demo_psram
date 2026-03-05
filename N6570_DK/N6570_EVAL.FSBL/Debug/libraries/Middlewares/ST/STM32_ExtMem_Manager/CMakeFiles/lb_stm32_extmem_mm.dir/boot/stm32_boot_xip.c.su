@@ -1,0 +1,3 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:60:20:BOOT_Application	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:87:20:MapMemory	16	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/STM32_ExtMem_Manager/boot/stm32_boot_xip.c:123:20:JumpToApplication	88	static,ignoring_inline_asm

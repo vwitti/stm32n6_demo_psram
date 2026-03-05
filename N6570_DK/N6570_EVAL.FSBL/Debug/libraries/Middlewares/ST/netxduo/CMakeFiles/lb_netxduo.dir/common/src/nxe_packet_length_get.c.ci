@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_length_get.c"
+node: { title: "_nxe_packet_length_get" label: "_nxe_packet_length_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_length_get.c:73:7" }
+node: { title: "_nx_packet_length_get" label: "_nx_packet_length_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:109:6" shape : ellipse }
+edge: { sourcename: "_nxe_packet_length_get" targetname: "_nx_packet_length_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_packet_length_get.c:90:15" }
+}

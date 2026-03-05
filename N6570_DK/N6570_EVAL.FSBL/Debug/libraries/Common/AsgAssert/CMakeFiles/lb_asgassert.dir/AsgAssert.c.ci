@@ -1,0 +1,15 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c"
+node: { title: "my_assert_fail" label: "my_assert_fail\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:23:6" }
+node: { title: "_tx_thread_identify" label: "_tx_thread_identify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1754:13" shape : ellipse }
+edge: { sourcename: "my_assert_fail" targetname: "_tx_thread_identify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:28:17" }
+node: { title: "Log_Printf" label: "Log_Printf\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLog/Syslog.h:54:6" shape : ellipse }
+edge: { sourcename: "my_assert_fail" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:31:2" }
+node: { title: "HAL_Thread_GetPrioString" label: "HAL_Thread_GetPrioString\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.h:23:8" shape : ellipse }
+edge: { sourcename: "my_assert_fail" targetname: "HAL_Thread_GetPrioString" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:32:2" }
+edge: { sourcename: "my_assert_fail" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:32:2" }
+edge: { sourcename: "my_assert_fail" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:33:2" }
+edge: { sourcename: "my_assert_fail" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:34:2" }
+edge: { sourcename: "my_assert_fail" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:36:2" }
+node: { title: "HAL_Thread_Stop" label: "HAL_Thread_Stop\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.h:22:8" shape : ellipse }
+edge: { sourcename: "my_assert_fail" targetname: "HAL_Thread_Stop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.c:37:2" }
+}

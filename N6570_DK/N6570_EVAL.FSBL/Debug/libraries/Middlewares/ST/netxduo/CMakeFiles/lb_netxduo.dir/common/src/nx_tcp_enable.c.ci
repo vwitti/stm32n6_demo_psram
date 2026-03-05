@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_enable.c"
+node: { title: "_nx_tcp_enable" label: "_nx_tcp_enable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_enable.c:72:7" }
+node: { title: "_nx_ip_fast_periodic_timer_create" label: "_nx_ip_fast_periodic_timer_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:232:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_enable" targetname: "_nx_ip_fast_periodic_timer_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_enable.c:128:5" }
+}

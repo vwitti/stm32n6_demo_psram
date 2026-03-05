@@ -1,0 +1,41 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c"
+node: { title: "nmi_dump_c" label: "nmi_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:28:6" }
+node: { title: "coredump_store_values_c" label: "coredump_store_values_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/hw/coredump.h:20:6" shape : ellipse }
+edge: { sourcename: "nmi_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:30:2" }
+node: { title: "printf_coredump" label: "printf_coredump\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/hw/coredump.h:18:6" shape : ellipse }
+edge: { sourcename: "nmi_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:33:5" }
+node: { title: "coredump_c_printf" label: "coredump_c_printf\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/hw/coredump.h:19:6" shape : ellipse }
+edge: { sourcename: "nmi_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:34:5" }
+node: { title: "HAL_Thread_SystemStop" label: "HAL_Thread_SystemStop\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalSystemStop.h:15:6" shape : ellipse }
+edge: { sourcename: "nmi_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:35:5" }
+node: { title: "hardfault_dump_c" label: "hardfault_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:38:6" }
+edge: { sourcename: "hardfault_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:40:2" }
+edge: { sourcename: "hardfault_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:42:5" }
+edge: { sourcename: "hardfault_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:43:5" }
+edge: { sourcename: "hardfault_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:44:5" }
+node: { title: "memmange_dump_c" label: "memmange_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:47:6" }
+edge: { sourcename: "memmange_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:49:2" }
+edge: { sourcename: "memmange_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:51:5" }
+edge: { sourcename: "memmange_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:52:5" }
+edge: { sourcename: "memmange_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:53:5" }
+node: { title: "busfault_dump_c" label: "busfault_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:56:6" }
+edge: { sourcename: "busfault_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:58:2" }
+edge: { sourcename: "busfault_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:60:5" }
+edge: { sourcename: "busfault_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:61:5" }
+edge: { sourcename: "busfault_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:62:5" }
+node: { title: "usagefault_dump_c" label: "usagefault_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:65:6" }
+edge: { sourcename: "usagefault_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:67:2" }
+edge: { sourcename: "usagefault_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:69:5" }
+edge: { sourcename: "usagefault_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:70:5" }
+edge: { sourcename: "usagefault_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:71:5" }
+node: { title: "securefault_dump_c" label: "securefault_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:74:6" }
+edge: { sourcename: "securefault_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:76:2" }
+edge: { sourcename: "securefault_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:78:5" }
+edge: { sourcename: "securefault_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:79:5" }
+edge: { sourcename: "securefault_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:80:5" }
+node: { title: "debugmon_dump_c" label: "debugmon_dump_c\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:83:6" }
+edge: { sourcename: "debugmon_dump_c" targetname: "coredump_store_values_c" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:85:2" }
+edge: { sourcename: "debugmon_dump_c" targetname: "printf_coredump" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:87:5" }
+edge: { sourcename: "debugmon_dump_c" targetname: "coredump_c_printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:88:5" }
+edge: { sourcename: "debugmon_dump_c" targetname: "HAL_Thread_SystemStop" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it_c_handler.c:89:5" }
+}

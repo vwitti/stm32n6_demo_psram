@@ -1,0 +1,10 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_threadx.c"
+node: { title: "App_ThreadX_Init" label: "App_ThreadX_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_threadx.c:51:6" }
+node: { title: "_txe_byte_allocate" label: "_txe_byte_allocate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1538:13" shape : ellipse }
+edge: { sourcename: "App_ThreadX_Init" targetname: "_txe_byte_allocate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_threadx.c:60:7" }
+node: { title: "_txe_thread_create" label: "_txe_thread_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1784:13" shape : ellipse }
+edge: { sourcename: "App_ThreadX_Init" targetname: "_txe_thread_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_threadx.c:66:7" }
+node: { title: "MX_ThreadX_Init" label: "MX_ThreadX_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_threadx.c:91:6" }
+node: { title: "_tx_initialize_kernel_enter" label: "_tx_initialize_kernel_enter\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1609:13" shape : ellipse }
+edge: { sourcename: "MX_ThreadX_Init" targetname: "_tx_initialize_kernel_enter" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_threadx.c:97:3" }
+}

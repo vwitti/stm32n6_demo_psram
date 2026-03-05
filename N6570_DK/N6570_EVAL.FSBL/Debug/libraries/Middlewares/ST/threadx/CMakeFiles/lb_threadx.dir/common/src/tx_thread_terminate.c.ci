@@ -1,0 +1,12 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c"
+node: { title: "_tx_thread_terminate" label: "_tx_thread_terminate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c:80:7" }
+node: { title: "_tx_timer_system_deactivate" label: "_tx_timer_system_deactivate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_timer.h:65:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_terminate" targetname: "_tx_timer_system_deactivate" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c:100:5" }
+node: { title: "_tx_thread_system_suspend" label: "_tx_thread_system_suspend\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:289:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_terminate" targetname: "_tx_thread_system_suspend" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c:189:13" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_tx_thread_terminate" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c:233:17" }
+edge: { sourcename: "_tx_thread_terminate" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c:284:13" }
+node: { title: "_tx_thread_system_preempt_check" label: "_tx_thread_system_preempt_check\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_thread.h:285:13" shape : ellipse }
+edge: { sourcename: "_tx_thread_terminate" targetname: "_tx_thread_system_preempt_check" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_thread_terminate.c:307:5" }
+}

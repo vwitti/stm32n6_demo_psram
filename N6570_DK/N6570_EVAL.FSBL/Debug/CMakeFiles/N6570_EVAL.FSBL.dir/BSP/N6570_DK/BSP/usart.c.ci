@@ -1,0 +1,70 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_AHB4_GRP1_EnableClock" label: "LL_AHB4_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:1407:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB1_GRP1_EnableClock" label: "LL_APB1_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:2273:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB1_GRP1_DisableClock" label: "LL_APB1_GRP1_DisableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:2403:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB2_GRP1_EnableClock" label: "LL_APB2_GRP1_EnableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:2909:22" }
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB2_GRP1_DisableClock" label: "LL_APB2_GRP1_DisableClock\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_ll_bus.h:2997:22" }
+node: { title: "MX_USART_ConsoleDeviceInit" label: "MX_USART_ConsoleDeviceInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:37:6" }
+edge: { sourcename: "MX_USART_ConsoleDeviceInit" targetname: "MX_USART2_UART_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:43:3" }
+node: { title: "MX_USART1_UART_Init" label: "MX_USART1_UART_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:47:6" }
+node: { title: "HAL_UART_Init" label: "HAL_UART_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h:1618:19" shape : ellipse }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "HAL_UART_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:68:7" }
+node: { title: "Error_Handler_NoPrintf" label: "Error_Handler_NoPrintf\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Inc/Init/error_handler.h:30:6" shape : ellipse }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:70:5" }
+node: { title: "HAL_UARTEx_SetTxFifoThreshold" label: "HAL_UARTEx_SetTxFifoThreshold\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart_ex.h:173:19" shape : ellipse }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "HAL_UARTEx_SetTxFifoThreshold" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:72:7" }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:74:5" }
+node: { title: "HAL_UARTEx_SetRxFifoThreshold" label: "HAL_UARTEx_SetRxFifoThreshold\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart_ex.h:174:19" shape : ellipse }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "HAL_UARTEx_SetRxFifoThreshold" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:76:7" }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:78:5" }
+node: { title: "HAL_UARTEx_DisableFifoMode" label: "HAL_UARTEx_DisableFifoMode\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart_ex.h:172:19" shape : ellipse }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "HAL_UARTEx_DisableFifoMode" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:80:7" }
+edge: { sourcename: "MX_USART1_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:82:5" }
+node: { title: "MX_USART2_UART_Init" label: "MX_USART2_UART_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:91:6" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "HAL_UART_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:112:7" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:114:5" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "HAL_UARTEx_SetTxFifoThreshold" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:116:7" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:118:5" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "HAL_UARTEx_SetRxFifoThreshold" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:120:7" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:122:5" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "HAL_UARTEx_DisableFifoMode" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:124:7" }
+edge: { sourcename: "MX_USART2_UART_Init" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:126:5" }
+node: { title: "HAL_UART_MspInit" label: "HAL_UART_MspInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:134:6" }
+node: { title: "memset" label: "__builtin_memset\n<built-in>" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "memset" }
+node: { title: "HAL_RCCEx_PeriphCLKConfig" label: "HAL_RCCEx_PeriphCLKConfig\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_rcc_ex.h:2604:19" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_RCCEx_PeriphCLKConfig" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:149:9" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:151:7" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB2_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:155:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:157:5" }
+node: { title: "HAL_GPIO_Init" label: "HAL_GPIO_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:467:19" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:167:5" }
+node: { title: "HAL_NVIC_SetPriority" label: "HAL_NVIC_SetPriority\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:286:6" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_NVIC_SetPriority" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:170:5" }
+node: { title: "HAL_NVIC_EnableIRQ" label: "HAL_NVIC_EnableIRQ\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:287:6" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_NVIC_EnableIRQ" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:171:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_RCCEx_PeriphCLKConfig" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:186:9" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "Error_Handler_NoPrintf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:188:7" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB1_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:192:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:194:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_AHB4_GRP1_EnableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:195:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:205:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_GPIO_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:212:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_NVIC_SetPriority" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:215:5" }
+edge: { sourcename: "HAL_UART_MspInit" targetname: "HAL_NVIC_EnableIRQ" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:216:5" }
+node: { title: "HAL_UART_MspDeInit" label: "HAL_UART_MspDeInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:223:6" }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB2_GRP1_DisableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:232:5" }
+node: { title: "HAL_GPIO_DeInit" label: "HAL_GPIO_DeInit\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_gpio.h:468:19" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:238:5" }
+node: { title: "HAL_NVIC_DisableIRQ" label: "HAL_NVIC_DisableIRQ\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_cortex.h:288:6" shape : ellipse }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "HAL_NVIC_DisableIRQ" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:241:5" }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:LL_APB1_GRP1_DisableClock" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:252:5" }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:258:5" }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "HAL_GPIO_DeInit" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:260:5" }
+edge: { sourcename: "HAL_UART_MspDeInit" targetname: "HAL_NVIC_DisableIRQ" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:263:5" }
+node: { title: "USART1_IRQHandler" label: "USART1_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:273:6" }
+node: { title: "HAL_UART_IRQHandler" label: "HAL_UART_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h:1664:6" shape : ellipse }
+edge: { sourcename: "USART1_IRQHandler" targetname: "HAL_UART_IRQHandler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:278:3" }
+node: { title: "USART2_IRQHandler" label: "USART2_IRQHandler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:287:6" }
+edge: { sourcename: "USART2_IRQHandler" targetname: "HAL_UART_IRQHandler" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/usart.c:292:3" }
+}

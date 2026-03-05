@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_semaphore_put_notify.c"
+node: { title: "_txe_semaphore_put_notify" label: "_txe_semaphore_put_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_semaphore_put_notify.c:75:7" }
+node: { title: "_tx_semaphore_put_notify" label: "_tx_semaphore_put_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1713:13" shape : ellipse }
+edge: { sourcename: "_txe_semaphore_put_notify" targetname: "_tx_semaphore_put_notify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_semaphore_put_notify.c:100:19" }
+}

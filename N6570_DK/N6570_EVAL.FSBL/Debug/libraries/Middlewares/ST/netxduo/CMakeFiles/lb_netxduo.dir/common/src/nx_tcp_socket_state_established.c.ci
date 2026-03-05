@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_established.c"
+node: { title: "_nx_tcp_socket_state_established" label: "_nx_tcp_socket_state_established\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_established.c:85:7" }
+node: { title: "_nx_tcp_receive_cleanup" label: "_nx_tcp_receive_cleanup\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:326:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_established" targetname: "_nx_tcp_receive_cleanup" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_established.c:130:13" }
+node: { title: "_nx_tcp_packet_send_ack" label: "_nx_tcp_packet_send_ack\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:317:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_established" targetname: "_nx_tcp_packet_send_ack" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_established.c:134:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_established" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_established.c:156:29" }
+}

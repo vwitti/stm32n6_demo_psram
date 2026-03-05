@@ -1,0 +1,11 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c"
+node: { title: "_nxe_ip_create" label: "_nxe_ip_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c:89:7" }
+node: { title: "_tx_thread_identify" label: "_tx_thread_identify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1754:13" shape : ellipse }
+edge: { sourcename: "_nxe_ip_create" targetname: "_tx_thread_identify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c:126:23" }
+node: { title: "_tx_thread_preemption_change" label: "_tx_thread_preemption_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1766:13" shape : ellipse }
+edge: { sourcename: "_nxe_ip_create" targetname: "_tx_thread_preemption_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c:131:9" }
+edge: { sourcename: "_nxe_ip_create" targetname: "_tx_thread_preemption_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c:152:17" }
+edge: { sourcename: "_nxe_ip_create" targetname: "_tx_thread_preemption_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c:168:9" }
+node: { title: "_nx_ip_create" label: "_nx_ip_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:124:6" shape : ellipse }
+edge: { sourcename: "_nxe_ip_create" targetname: "_nx_ip_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_ip_create.c:185:15" }
+}

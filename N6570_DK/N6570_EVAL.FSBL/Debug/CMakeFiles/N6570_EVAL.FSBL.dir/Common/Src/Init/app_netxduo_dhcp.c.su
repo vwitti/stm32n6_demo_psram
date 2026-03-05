@@ -1,0 +1,8 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:67:8:MX_NetXDuo_Init_DHCP_get_own_ip	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:72:8:MX_NetXDuo_Init_DHCP_get_server_ip	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:77:24:MX_NetXDuo_DHCP_Event	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:83:6:MX_NetXDuo_Init_DHCP_WaitForIp	32	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:100:6:MX_NetXDuo_Init_DHCP	64	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:159:13:ip_address_change_notify_callback	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:182:13:ThreadASG_NetX_DHCP_Startup	40	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_netxduo_dhcp.c:234:13:ThreadASG_NetX_LinkUp	48	static

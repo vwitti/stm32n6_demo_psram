@@ -1,0 +1,17 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c"
+node: { title: "_fx_directory_next_full_entry_find" label: "_fx_directory_next_full_entry_find\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:96:7" }
+node: { title: "_tx_mutex_get" label: "_tx_mutex_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1616:13" shape : ellipse }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_tx_mutex_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:149:5" }
+node: { title: "_fx_utility_FAT_entry_read" label: "_fx_utility_FAT_entry_read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:76:9" shape : ellipse }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_fx_utility_FAT_entry_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:254:31" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:262:25" }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:272:25" }
+node: { title: "_fx_directory_entry_read" label: "_fx_directory_entry_read\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_directory.h:130:7" shape : ellipse }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_fx_directory_entry_read" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:318:27" }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:329:13" }
+node: { title: "memcpy" label: "__builtin_memcpy\n<built-in>" shape : ellipse }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "memcpy" }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "memcpy" }
+edge: { sourcename: "_fx_directory_next_full_entry_find" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_directory_next_full_entry_find.c:568:5" }
+}

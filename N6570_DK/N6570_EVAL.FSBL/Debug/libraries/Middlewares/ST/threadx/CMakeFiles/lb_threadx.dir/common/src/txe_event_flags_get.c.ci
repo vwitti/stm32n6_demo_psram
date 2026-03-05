@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_event_flags_get.c"
+node: { title: "_txe_event_flags_get" label: "_txe_event_flags_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_event_flags_get.c:84:7" }
+node: { title: "_tx_event_flags_get" label: "_tx_event_flags_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1566:13" shape : ellipse }
+edge: { sourcename: "_txe_event_flags_get" targetname: "_tx_event_flags_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_event_flags_get.c:173:19" }
+}

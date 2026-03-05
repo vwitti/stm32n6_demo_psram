@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c"
+node: { title: "HAL_I2CEx_ConfigAnalogFilter" label: "HAL_I2CEx_ConfigAnalogFilter\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c:95:19" }
+node: { title: "HAL_I2CEx_ConfigDigitalFilter" label: "HAL_I2CEx_ConfigDigitalFilter\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c:139:19" }
+node: { title: "HAL_I2CEx_EnableWakeUp" label: "HAL_I2CEx_EnableWakeUp\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c:207:19" }
+node: { title: "HAL_I2CEx_DisableWakeUp" label: "HAL_I2CEx_DisableWakeUp\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c:246:19" }
+node: { title: "HAL_I2CEx_ConfigFastModePlus" label: "HAL_I2CEx_ConfigFastModePlus\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Src/stm32n6xx_hal_i2c_ex.c:303:19" }
+}

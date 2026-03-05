@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_media_open_notify_set.c"
+node: { title: "_fxe_media_open_notify_set" label: "_fxe_media_open_notify_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_media_open_notify_set.c:77:7" }
+node: { title: "_fx_media_open_notify_set" label: "_fx_media_open_notify_set\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_media.h:76:6" shape : ellipse }
+edge: { sourcename: "_fxe_media_open_notify_set" targetname: "_fx_media_open_notify_set" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_media_open_notify_set.c:91:15" }
+}

@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_header_add.c"
+node: { title: "_nx_ip_header_add" label: "_nx_ip_header_add\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_header_add.c:91:7" }
+node: { title: "_tx_thread_sleep" label: "_tx_thread_sleep\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1773:13" shape : ellipse }
+edge: { sourcename: "_nx_ip_header_add" targetname: "_tx_thread_sleep" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_header_add.c:122:5" }
+node: { title: "_nx_ip_checksum_compute" label: "_nx_ip_checksum_compute\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:111:8" shape : ellipse }
+edge: { sourcename: "_nx_ip_header_add" targetname: "_nx_ip_checksum_compute" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_ip_header_add.c:232:20" }
+}

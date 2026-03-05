@@ -1,0 +1,8 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:28:29:NMI_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:42:29:HardFault_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:56:29:MemManage_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:70:29:BusFault_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:84:29:UsageFault_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:98:29:SecureFault_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:132:29:DebugMon_Handler	0	static,ignoring_inline_asm
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:162:6:SysTick_Handler	8	static

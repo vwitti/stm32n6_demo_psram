@@ -1,0 +1,2 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_tcsromfs.c:37:6:MX_EXTMEM_verify_tcsromfs_mbr	24	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/extmem/fsinit_tcsromfs.c:54:6:MX_EXTMEM_init_tcs_romfs	16	static

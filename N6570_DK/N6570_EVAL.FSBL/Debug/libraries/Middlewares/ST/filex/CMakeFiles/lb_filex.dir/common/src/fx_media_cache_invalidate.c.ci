@@ -1,0 +1,13 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c"
+node: { title: "_fx_media_cache_invalidate" label: "_fx_media_cache_invalidate\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c:76:7" }
+node: { title: "_tx_mutex_get" label: "_tx_mutex_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1616:13" shape : ellipse }
+edge: { sourcename: "_fx_media_cache_invalidate" targetname: "_tx_mutex_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c:101:5" }
+node: { title: "_fx_utility_FAT_flush" label: "_fx_utility_FAT_flush\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:78:9" shape : ellipse }
+edge: { sourcename: "_fx_media_cache_invalidate" targetname: "_fx_utility_FAT_flush" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c:103:5" }
+node: { title: "_fx_utility_FAT_map_flush" label: "_fx_utility_FAT_map_flush\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:79:9" shape : ellipse }
+edge: { sourcename: "_fx_media_cache_invalidate" targetname: "_fx_utility_FAT_map_flush" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c:106:5" }
+node: { title: "_fx_utility_logical_sector_flush" label: "_fx_utility_logical_sector_flush\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_utility.h:75:9" shape : ellipse }
+edge: { sourcename: "_fx_media_cache_invalidate" targetname: "_fx_utility_logical_sector_flush" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c:126:15" }
+node: { title: "_tx_mutex_put" label: "_tx_mutex_put\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1625:13" shape : ellipse }
+edge: { sourcename: "_fx_media_cache_invalidate" targetname: "_tx_mutex_put" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fx_media_cache_invalidate.c:129:5" }
+}

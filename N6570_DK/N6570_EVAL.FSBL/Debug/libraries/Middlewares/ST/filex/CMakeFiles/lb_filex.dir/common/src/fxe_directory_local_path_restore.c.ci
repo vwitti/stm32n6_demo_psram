@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_directory_local_path_restore.c"
+node: { title: "_fxe_directory_local_path_restore" label: "_fxe_directory_local_path_restore\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_directory_local_path_restore.c:75:7" }
+node: { title: "_fx_directory_local_path_restore" label: "_fx_directory_local_path_restore\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_directory.h:73:6" shape : ellipse }
+edge: { sourcename: "_fxe_directory_local_path_restore" targetname: "_fx_directory_local_path_restore" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_directory_local_path_restore.c:88:15" }
+}

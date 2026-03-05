@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_unicode_file_create.c"
+node: { title: "_fxe_unicode_file_create" label: "_fxe_unicode_file_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_unicode_file_create.c:78:7" }
+node: { title: "_fx_unicode_file_create" label: "_fx_unicode_file_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/inc/fx_unicode.h:66:7" shape : ellipse }
+edge: { sourcename: "_fxe_unicode_file_create" targetname: "_fx_unicode_file_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/filex/common/src/fxe_unicode_file_create.c:103:15" }
+}

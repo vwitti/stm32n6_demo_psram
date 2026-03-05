@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c"
+node: { title: "_tx_initialize_kernel_setup" label: "_tx_initialize_kernel_setup\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c:76:7" }
+node: { title: "_tx_initialize_low_level" label: "_tx_initialize_low_level\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_initialize.h:65:13" shape : ellipse }
+edge: { sourcename: "_tx_initialize_kernel_setup" targetname: "_tx_initialize_low_level" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c:89:5" }
+node: { title: "_tx_initialize_high_level" label: "_tx_initialize_high_level\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_initialize.h:63:13" shape : ellipse }
+edge: { sourcename: "_tx_initialize_kernel_setup" targetname: "_tx_initialize_high_level" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/tx_initialize_kernel_setup.c:94:5" }
+}

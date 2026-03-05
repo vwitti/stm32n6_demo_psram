@@ -1,0 +1,14 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c"
+node: { title: "NMI_Handler" label: "NMI_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:28:29" }
+node: { title: "HardFault_Handler" label: "HardFault_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:42:29" }
+node: { title: "MemManage_Handler" label: "MemManage_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:56:29" }
+node: { title: "BusFault_Handler" label: "BusFault_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:70:29" }
+node: { title: "UsageFault_Handler" label: "UsageFault_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:84:29" }
+node: { title: "SecureFault_Handler" label: "SecureFault_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:98:29" }
+node: { title: "DebugMon_Handler" label: "DebugMon_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:132:29" }
+node: { title: "SysTick_Handler" label: "SysTick_Handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:162:6" }
+node: { title: "HAL_IncTick" label: "HAL_IncTick\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal.h:810:6" shape : ellipse }
+edge: { sourcename: "SysTick_Handler" targetname: "HAL_IncTick" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:164:3" }
+node: { title: "SysTick_Handler_Threadx" label: "SysTick_Handler_Threadx\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:168:15" shape : ellipse }
+edge: { sourcename: "SysTick_Handler" targetname: "SysTick_Handler_Threadx" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/hw/stm32n6xx_it.c:169:3" }
+}

@@ -1,0 +1,7 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_last_ack.c"
+node: { title: "_nx_tcp_socket_state_last_ack" label: "_nx_tcp_socket_state_last_ack\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_last_ack.c:75:7" }
+node: { title: "_nx_tcp_socket_block_cleanup" label: "_nx_tcp_socket_block_cleanup\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:348:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_last_ack" targetname: "_nx_tcp_socket_block_cleanup" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_last_ack.c:88:13" }
+node: { title: "_nx_tcp_socket_thread_resume" label: "_nx_tcp_socket_thread_resume\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:345:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_state_last_ack" targetname: "_nx_tcp_socket_thread_resume" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_state_last_ack.c:95:17" }
+}

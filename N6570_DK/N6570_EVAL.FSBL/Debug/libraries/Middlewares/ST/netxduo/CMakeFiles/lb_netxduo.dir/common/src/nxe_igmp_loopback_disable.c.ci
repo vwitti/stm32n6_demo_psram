@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_igmp_loopback_disable.c"
+node: { title: "_nxe_igmp_loopback_disable" label: "_nxe_igmp_loopback_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_igmp_loopback_disable.c:78:7" }
+node: { title: "_nx_igmp_loopback_disable" label: "_nx_igmp_loopback_disable\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_igmp.h:187:6" shape : ellipse }
+edge: { sourcename: "_nxe_igmp_loopback_disable" targetname: "_nx_igmp_loopback_disable" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_igmp_loopback_disable.c:101:15" }
+}

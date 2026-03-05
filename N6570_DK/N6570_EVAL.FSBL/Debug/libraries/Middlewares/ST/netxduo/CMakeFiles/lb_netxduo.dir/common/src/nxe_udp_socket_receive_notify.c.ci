@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_socket_receive_notify.c"
+node: { title: "_nxe_udp_socket_receive_notify" label: "_nxe_udp_socket_receive_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_socket_receive_notify.c:76:7" }
+node: { title: "_nx_udp_socket_receive_notify" label: "_nx_udp_socket_receive_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_udp.h:121:6" shape : ellipse }
+edge: { sourcename: "_nxe_udp_socket_receive_notify" targetname: "_nx_udp_socket_receive_notify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_udp_socket_receive_notify.c:89:15" }
+}

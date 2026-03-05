@@ -1,0 +1,1 @@
+ip7z/7zip@25.01 -H sha256:8772e4ef86540c98bf4c23a6d9e13b3a25794d4bb30986ef0b1b9f20075b34c9 -X build.cmake

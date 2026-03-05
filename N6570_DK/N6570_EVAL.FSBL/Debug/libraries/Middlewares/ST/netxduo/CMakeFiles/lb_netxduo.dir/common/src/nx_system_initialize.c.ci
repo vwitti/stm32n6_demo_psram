@@ -1,0 +1,9 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_system_initialize.c"
+node: { title: "_nx_system_initialize" label: "_nx_system_initialize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_system_initialize.c:92:7" }
+node: { title: "_nx_packet_pool_initialize" label: "_nx_packet_pool_initialize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_packet.h:119:6" shape : ellipse }
+edge: { sourcename: "_nx_system_initialize" targetname: "_nx_packet_pool_initialize" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_system_initialize.c:108:5" }
+node: { title: "_nx_ip_initialize" label: "_nx_ip_initialize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_ip.h:158:6" shape : ellipse }
+edge: { sourcename: "_nx_system_initialize" targetname: "_nx_ip_initialize" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_system_initialize.c:111:5" }
+node: { title: "_nx_tcp_initialize" label: "_nx_tcp_initialize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:309:6" shape : ellipse }
+edge: { sourcename: "_nx_system_initialize" targetname: "_nx_tcp_initialize" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_system_initialize.c:115:5" }
+}

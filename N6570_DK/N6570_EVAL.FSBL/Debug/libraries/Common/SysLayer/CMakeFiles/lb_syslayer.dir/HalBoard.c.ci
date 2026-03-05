@@ -1,0 +1,17 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c"
+node: { title: "HAL_Board_Led_ERR" label: "HAL_Board_Led_ERR\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:23:6" }
+node: { title: "UserLed_Red_On" label: "UserLed_Red_On\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:76:6" shape : ellipse }
+edge: { sourcename: "HAL_Board_Led_ERR" targetname: "UserLed_Red_On" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:27:3" }
+node: { title: "UserLed_Red_Off" label: "UserLed_Red_Off\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:77:6" shape : ellipse }
+edge: { sourcename: "HAL_Board_Led_ERR" targetname: "UserLed_Red_Off" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:31:3" }
+node: { title: "HAL_Board_Led_RUN" label: "HAL_Board_Led_RUN\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:35:6" }
+node: { title: "UserLed_Green_On" label: "UserLed_Green_On\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:78:6" shape : ellipse }
+edge: { sourcename: "HAL_Board_Led_RUN" targetname: "UserLed_Green_On" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:39:3" }
+node: { title: "UserLed_Green_Off" label: "UserLed_Green_Off\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/gpio.h:79:6" shape : ellipse }
+edge: { sourcename: "HAL_Board_Led_RUN" targetname: "UserLed_Green_Off" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:43:3" }
+node: { title: "HAL_Board_Debug_UART_Write" label: "HAL_Board_Debug_UART_Write\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:47:10" }
+node: { title: "DebugUsartHandle_get" label: "DebugUsartHandle_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/BSP/N6570_DK/BSP/Inc/stm32_dev_handles.h:28:22" shape : ellipse }
+edge: { sourcename: "HAL_Board_Debug_UART_Write" targetname: "DebugUsartHandle_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:51:32" }
+node: { title: "HAL_UART_Transmit_IT" label: "HAL_UART_Transmit_IT\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Drivers/STM32N6xx_HAL_Driver/Inc/stm32n6xx_hal_uart.h:1647:19" shape : ellipse }
+edge: { sourcename: "HAL_Board_Debug_UART_Write" targetname: "HAL_UART_Transmit_IT" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.c:59:10" }
+}

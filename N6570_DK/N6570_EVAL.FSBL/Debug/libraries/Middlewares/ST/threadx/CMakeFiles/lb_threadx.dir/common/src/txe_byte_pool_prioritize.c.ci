@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c"
+node: { title: "_txe_byte_pool_prioritize" label: "_txe_byte_pool_prioritize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c:72:7" }
+node: { title: "_tx_byte_pool_prioritize" label: "_tx_byte_pool_prioritize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1531:13" shape : ellipse }
+edge: { sourcename: "_txe_byte_pool_prioritize" targetname: "_tx_byte_pool_prioritize" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_byte_pool_prioritize.c:97:19" }
+}

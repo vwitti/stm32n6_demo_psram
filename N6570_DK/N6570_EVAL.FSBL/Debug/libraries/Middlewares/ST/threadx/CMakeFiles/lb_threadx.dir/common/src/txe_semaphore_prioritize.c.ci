@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_semaphore_prioritize.c"
+node: { title: "_txe_semaphore_prioritize" label: "_txe_semaphore_prioritize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_semaphore_prioritize.c:72:7" }
+node: { title: "_tx_semaphore_prioritize" label: "_tx_semaphore_prioritize\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1711:13" shape : ellipse }
+edge: { sourcename: "_txe_semaphore_prioritize" targetname: "_tx_semaphore_prioritize" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_semaphore_prioritize.c:97:19" }
+}

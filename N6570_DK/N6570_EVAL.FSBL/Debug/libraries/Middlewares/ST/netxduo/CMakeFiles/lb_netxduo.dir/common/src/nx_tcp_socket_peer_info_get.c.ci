@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_peer_info_get.c"
+node: { title: "_nx_tcp_socket_peer_info_get" label: "_nx_tcp_socket_peer_info_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_peer_info_get.c:78:7" }
+node: { title: "_nxd_tcp_socket_peer_info_get" label: "_nxd_tcp_socket_peer_info_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:243:6" shape : ellipse }
+edge: { sourcename: "_nx_tcp_socket_peer_info_get" targetname: "_nxd_tcp_socket_peer_info_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nx_tcp_socket_peer_info_get.c:86:14" }
+}

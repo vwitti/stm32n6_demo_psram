@@ -1,0 +1,8 @@
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:44:13:MX_FileX_GetMedia_TcsRomDisk	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:49:13:MX_FileX_GetMedia_RamDisk	4	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:56:6:MX_FileX_Init_ROM_DISK	40	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:71:6:MX_FileX_Init_PSRAM_DISK_MM	64	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:178:6:MX_Filex_read_to_buffer	632	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:252:6:MX_Filex_Get_Size	600	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:295:10:MX_FileX_Eval_Path	40	static
+/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/Common/Src/Init/app_filex.c:358:12:MX_FileX_Get_Media	24	static

@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_time_slice_change.c"
+node: { title: "_txe_thread_time_slice_change" label: "_txe_thread_time_slice_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_time_slice_change.c:77:7" }
+node: { title: "_tx_thread_time_slice_change" label: "_tx_thread_time_slice_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1777:13" shape : ellipse }
+edge: { sourcename: "_txe_thread_time_slice_change" targetname: "_tx_thread_time_slice_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/src/txe_thread_time_slice_change.c:118:19" }
+}

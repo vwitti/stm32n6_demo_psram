@@ -1,0 +1,50 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c"
+node: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:HAL_global_stack_error_handler" label: "HAL_global_stack_error_handler\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:37:13" }
+node: { title: "HAL_Thread_Init" label: "HAL_Thread_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:43:6" }
+node: { title: "_tx_thread_stack_error_notify" label: "_tx_thread_stack_error_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1774:13" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Init" targetname: "_tx_thread_stack_error_notify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:49:2" }
+node: { title: "TxArray_Init" label: "TxArray_Init\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/TxArray.h:24:6" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Init" targetname: "TxArray_Init" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:53:8" }
+node: { title: "my_assert_fail" label: "my_assert_fail\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/AsgAssert/AsgAssert.h:18:6" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Init" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:54:2" }
+node: { title: "HAL_Thread_Stop" label: "HAL_Thread_Stop\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:57:6" }
+node: { title: "HAL_Board_Led_ERR" label: "HAL_Board_Led_ERR\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalBoard.h:18:6" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Stop" targetname: "HAL_Board_Led_ERR" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:62:3" }
+node: { title: "_tx_thread_sleep" label: "_tx_thread_sleep\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1773:13" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Stop" targetname: "_tx_thread_sleep" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:63:3" }
+edge: { sourcename: "HAL_Thread_Stop" targetname: "HAL_Board_Led_ERR" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:64:3" }
+edge: { sourcename: "HAL_Thread_Stop" targetname: "_tx_thread_sleep" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:65:3" }
+node: { title: "HAL_Thread_GetPrioString" label: "HAL_Thread_GetPrioString\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:69:8" }
+node: { title: "HAL_Thread_Change_Prio" label: "HAL_Thread_Change_Prio\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:89:6" }
+node: { title: "_txe_thread_info_get" label: "_txe_thread_info_get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1791:13" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Change_Prio" targetname: "_txe_thread_info_get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:95:2" }
+node: { title: "_txe_thread_priority_change" label: "_txe_thread_priority_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1796:13" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Change_Prio" targetname: "_txe_thread_priority_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:101:9" }
+edge: { sourcename: "HAL_Thread_Change_Prio" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:102:3" }
+node: { title: "_txe_thread_preemption_change" label: "_txe_thread_preemption_change\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1794:13" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Change_Prio" targetname: "_txe_thread_preemption_change" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:103:9" }
+edge: { sourcename: "HAL_Thread_Change_Prio" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:104:3" }
+node: { title: "HAL_Thread_StackCheck" label: "HAL_Thread_StackCheck\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:108:6" }
+node: { title: "Log_Printf" label: "Log_Printf\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLog/Syslog.h:54:6" shape : ellipse }
+edge: { sourcename: "HAL_Thread_StackCheck" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:121:6" }
+edge: { sourcename: "HAL_Thread_StackCheck" targetname: "Log_Printf" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:126:6" }
+node: { title: "HAL_Thread_Create" label: "HAL_Thread_Create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:132:6" }
+node: { title: "TxArray_Count" label: "TxArray_Count\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/TxArray.h:30:8" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Create" targetname: "TxArray_Count" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:149:5" }
+node: { title: "TxArray_Add" label: "TxArray_Add\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/TxArray.h:25:6" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Create" targetname: "TxArray_Add" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:154:14" }
+edge: { sourcename: "HAL_Thread_Create" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:155:3" }
+node: { title: "_txe_thread_create" label: "_txe_thread_create\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/threadx/common/inc/tx_api.h:1784:13" shape : ellipse }
+edge: { sourcename: "HAL_Thread_Create" targetname: "_txe_thread_create" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:156:9" }
+edge: { sourcename: "HAL_Thread_Create" targetname: "my_assert_fail" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:166:3" }
+node: { title: "HAL_Thread_CyclicStackCheck" label: "HAL_Thread_CyclicStackCheck\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:172:6" }
+edge: { sourcename: "HAL_Thread_CyclicStackCheck" targetname: "TxArray_Count" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:174:17" }
+node: { title: "TxArray_Get" label: "TxArray_Get\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/Utils/TxArray.h:26:6" shape : ellipse }
+edge: { sourcename: "HAL_Thread_CyclicStackCheck" targetname: "TxArray_Get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:183:14" }
+edge: { sourcename: "HAL_Thread_CyclicStackCheck" targetname: "HAL_Thread_StackCheck" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:186:22" }
+node: { title: "HAL_Thread_CyclicSelfCheck" label: "HAL_Thread_CyclicSelfCheck\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:192:6" }
+edge: { sourcename: "HAL_Thread_CyclicSelfCheck" targetname: "TxArray_Count" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:194:17" }
+edge: { sourcename: "HAL_Thread_CyclicSelfCheck" targetname: "TxArray_Get" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:203:14" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "HAL_Thread_CyclicSelfCheck" targetname: "__indirect_call" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Common/SysLayer/HalThread.c:206:26" }
+}

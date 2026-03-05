@@ -1,0 +1,5 @@
+graph: { title: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_receive_notify.c"
+node: { title: "_nxe_tcp_socket_receive_notify" label: "_nxe_tcp_socket_receive_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_receive_notify.c:83:7" }
+node: { title: "_nx_tcp_socket_receive_notify" label: "_nx_tcp_socket_receive_notify\n/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/inc/nx_tcp.h:278:6" shape : ellipse }
+edge: { sourcename: "_nxe_tcp_socket_receive_notify" targetname: "_nx_tcp_socket_receive_notify" label: "/home/volker/tiefenbach/repos/git/ASG-EVO/N6570_DK/N6570_EVAL.FSBL/libraries/Middlewares/ST/netxduo/common/src/nxe_tcp_socket_receive_notify.c:106:15" }
+}

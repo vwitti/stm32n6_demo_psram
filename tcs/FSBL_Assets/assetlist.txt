@@ -1,0 +1,3 @@
+logo_tcs.bmp
+romfs4.mbr
+ip_def.cfg
